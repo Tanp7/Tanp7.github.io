@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-01-17T14:04:45.383Z</updated>
+  <updated>2022-01-17T17:48:26.740Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在华为手机安装苹方字体</title>
+    <link href="https://tanp7.github.io/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/"/>
+    <id>https://tanp7.github.io/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/</id>
+    <published>2022-01-17T17:41:56.000Z</published>
+    <updated>2022-01-17T17:48:26.740Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;只需三步&quot;&gt;&lt;a href=&quot;#只需三步&quot; class=&quot;headerlink&quot; title=&quot;只需三步&quot;&gt;&lt;/a&gt;只需三步&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Step 1: Download the hwt document. CV and download</summary>
+        
+      
+    
+    
+    
+    <category term="Font" scheme="https://tanp7.github.io/categories/Font/"/>
+    
+    
+    <category term="font" scheme="https://tanp7.github.io/tags/font/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于bumblebee的安装Archlinux双显卡驱动</title>
+    <link href="https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/"/>
+    <id>https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/</id>
+    <published>2022-01-17T17:33:37.000Z</published>
+    <updated>2022-01-17T17:43:52.660Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;众所周知，自从高性能独立图形处理器出现之后，很多便携式计算机就会采取一种双显卡的设计：节能的核心图形处理器用于渲染常规的桌面环境，而高性能的独立图形处理器则负责渲染高需求的应用程序。这种技术被称作Optimus智能显卡切换。但是英伟达经常被Linux用户诟病的原因之一，便是一直不对Linux平台上心，不仅没有Linux下的Optimus支持，驱动程序更新也慢半拍。&lt;br&gt;这意味着，Linux用户必须在一次会话中一直使用核心显卡或者一直使用独立显卡;一直使用核心显卡会很节能，但是Hold不住某些应用程序(比如现在很多巨型的3D游戏已经通过Steam登陆了Linux平台)，而一直使用独立显卡将会非常耗电，即使你在做很简单的工作。&lt;br&gt;所幸的是，Linux平台上有一个有名的第三方项目，名叫Bumblebee(大黄蜂)。这个项目目的就是给Linux提供类似Optimus技术的支持。这个项目以前并不出名，但是它某个版本的安装脚本install.sh多敲了一个空格，从而错误地删掉了所有用户的整个/usr，这个事件使它迅速出名并获得了大量的技术支持。这么想也是因祸得福吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://tanp7.github.io/categories/Code/"/>
+    
+    
+    <category term="Archlinux" scheme="https://tanp7.github.io/tags/Archlinux/"/>
+    
+  </entry>
   
   <entry>
     <title>物流成本笔记</title>
