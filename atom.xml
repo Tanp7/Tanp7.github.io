@@ -102,27 +102,6 @@
   </entry>
   
   <entry>
-    <title>mac万能头</title>
-    <link href="https://tanp7.github.io/2022/01/16/mac%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
-    <id>https://tanp7.github.io/2022/01/16/mac%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
-    <published>2022-01-16T14:25:32.000Z</published>
-    <updated>2022-01-16T14:27:40.852Z</updated>
-    
-    <content type="html"><![CDATA[<p>#Test</p><figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">cout &lt;&lt; <span class="string">"Hello world\n"</span> &lt;&lt; endl;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;#Test&lt;/p&gt;
-&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/sp</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>六级复习资料</title>
     <link href="https://tanp7.github.io/2022/01/16/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/"/>
     <id>https://tanp7.github.io/2022/01/16/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/</id>
@@ -135,26 +114,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;六级必过！！&quot;&gt;&lt;a href=&quot;#六级必过！！&quot; class=&quot;headerlink&quot; title=&quot;六级必过！！&quot;&gt;&lt;/a&gt;六级必过！！&lt;/h1&gt;&lt;h2 id=&quot;翻译-写作&quot;&gt;&lt;a href=&quot;#翻译-写作&quot; class=&quot;headerlink&quot; title=</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://tanp7.github.io/2022/01/16/hello-world/"/>
-    <id>https://tanp7.github.io/2022/01/16/hello-world/</id>
-    <published>2022-01-16T12:52:28.661Z</published>
-    <updated>2022-01-16T12:52:28.661Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
     
