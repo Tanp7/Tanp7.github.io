@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>clashx如何实现终端代理</title>
+      <link href="/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/"/>
+      <url>/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一-在clashx中复制终端代理命令"><a href="#一-在clashx中复制终端代理命令" class="headerlink" title="一.在clashx中复制终端代理命令"></a>一.在clashx中复制终端代理命令</h1><blockquote><p>macOS中为cmd+c</p></blockquote><h1 id="二-设置clashx为全局模式"><a href="#二-设置clashx为全局模式" class="headerlink" title="二.设置clashx为全局模式"></a>二.设置clashx为全局模式</h1><h1 id="三-打开终端复制命令"><a href="#三-打开终端复制命令" class="headerlink" title="三.打开终端复制命令"></a>三.打开终端复制命令</h1><h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>这样就能在当前终端的窗口实现代理, 但是存在一个问题: 关闭当前终端窗口代理就消失了.</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>编辑.zshrc. (这是我的路径, 每个系统可能有所不同)</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br></pre></td></tr></tbody></table></figure><p>如果你是bash, 那么:</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></tbody></table></figure><p>在.zshrc或者.bashrc中添加以下内容</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> all_proxy=socks5://127.0.0.1:7891</span><br></pre></td></tr></tbody></table></figure><h2 id="检验是否成功代理"><a href="#检验是否成功代理" class="headerlink" title="检验是否成功代理"></a>检验是否成功代理</h2><p>在终端输入以下:</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl cip.cc</span><br></pre></td></tr></tbody></table></figure><p>如果显示的ip已经变成代理, 那么大功告成!</p><blockquote><p>OK, 享受秒连的快感吧~</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> proxy </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> proxy </tag>
+            
+            <tag> clashx </tag>
+            
+            <tag> terminal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何在华为手机安装苹方字体</title>
       <link href="/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/"/>
       <url>/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/</url>

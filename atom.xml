@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-01-17T17:48:26.740Z</updated>
+  <updated>2022-01-18T15:32:15.183Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>clashx如何实现终端代理</title>
+    <link href="https://tanp7.github.io/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/"/>
+    <id>https://tanp7.github.io/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/</id>
+    <published>2022-01-18T15:14:59.000Z</published>
+    <updated>2022-01-18T15:32:15.183Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一-在clashx中复制终端代理命令&quot;&gt;&lt;a href=&quot;#一-在clashx中复制终端代理命令&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="proxy" scheme="https://tanp7.github.io/categories/proxy/"/>
+    
+    
+    <category term="proxy" scheme="https://tanp7.github.io/tags/proxy/"/>
+    
+    <category term="clashx" scheme="https://tanp7.github.io/tags/clashx/"/>
+    
+    <category term="terminal" scheme="https://tanp7.github.io/tags/terminal/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在华为手机安装苹方字体</title>
