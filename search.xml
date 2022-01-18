@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>物流成本笔记</title>
-      <link href="/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/"/>
-      <url>/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<h2 id="1-物流成本管理"><a href="#1-物流成本管理" class="headerlink" title="1.物流成本管理"></a>1.物流成本管理</h2><ul><li>目标成本法<ul><li>以市场为向导，围绕企业的经营利润为目标</li><li>管理范围和管理重点都以事前事中为主</li><li>管理责任强调目标成本指标的分解，各部门责任</li></ul></li><li>传统成本法<ul><li>事后为主，总结经验</li></ul></li></ul><h2 id="2-标准成本法"><a href="#2-标准成本法" class="headerlink" title="2.标准成本法"></a>2.标准成本法</h2><ul><li>实际成本 = 标准成本 + 成本差异</li></ul><blockquote><p>物流成本由物流服务的直接材料费用、直接人工费用和间接费用三部分组成。两个标准 用量标准 价格标准</p></blockquote><h2 id="物流成本管理绩效评价概述"><a href="#物流成本管理绩效评价概述" class="headerlink" title="物流成本管理绩效评价概述"></a>物流成本管理绩效评价概述</h2><hr><ul><li>评价步骤<ul><li>撰写报告</li><li>建立机构</li><li>制定方案</li><li>收集信息</li><li>进行评估</li></ul></li></ul><blockquote><p>KPI：Key Performance Indicators 关键绩效指标</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> Review material </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Logistics </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>六级复习资料</title>
       <link href="/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/"/>
       <url>/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/</url>
@@ -123,6 +98,31 @@
             <tag> ssh </tag>
             
             <tag> debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>物流成本笔记</title>
+      <link href="/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/"/>
+      <url>/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-物流成本管理"><a href="#1-物流成本管理" class="headerlink" title="1.物流成本管理"></a>1.物流成本管理</h2><ul><li>目标成本法<ul><li>以市场为向导，围绕企业的经营利润为目标</li><li>管理范围和管理重点都以事前事中为主</li><li>管理责任强调目标成本指标的分解，各部门责任</li></ul></li><li>传统成本法<ul><li>事后为主，总结经验</li></ul></li></ul><h2 id="2-标准成本法"><a href="#2-标准成本法" class="headerlink" title="2.标准成本法"></a>2.标准成本法</h2><ul><li>实际成本 = 标准成本 + 成本差异</li></ul><blockquote><p>物流成本由物流服务的直接材料费用、直接人工费用和间接费用三部分组成。两个标准 用量标准 价格标准</p></blockquote><h2 id="物流成本管理绩效评价概述"><a href="#物流成本管理绩效评价概述" class="headerlink" title="物流成本管理绩效评价概述"></a>物流成本管理绩效评价概述</h2><hr><ul><li>评价步骤<ul><li>撰写报告</li><li>建立机构</li><li>制定方案</li><li>收集信息</li><li>进行评估</li></ul></li></ul><blockquote><p>KPI：Key Performance Indicators 关键绩效指标</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Review material </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Logistics </tag>
             
         </tags>
       
