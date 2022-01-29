@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-01-21T10:36:35.962Z</updated>
+  <updated>2022-01-29T18:43:47.841Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS 配置VSCode code runner c++</title>
+    <link href="https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/"/>
+    <id>https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/</id>
+    <published>2022-01-29T18:14:36.000Z</published>
+    <updated>2022-01-29T18:43:47.841Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;配置前准备&quot;&gt;&lt;a href=&quot;#配置前准备&quot; class=&quot;headerlink&quot; title=&quot;配置前准备&quot;&gt;&lt;/a&gt;配置前准备&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt; VSCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C++" scheme="https://tanp7.github.io/categories/C/"/>
+    
+    
+    <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+  </entry>
   
   <entry>
     <title>ncm/qmc转mp3</title>

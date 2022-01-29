@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>macOS 配置VSCode code runner c++</title>
+      <link href="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/"/>
+      <url>/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/</url>
+      
+        <content type="html"><![CDATA[<h1 id="配置前准备"><a href="#配置前准备" class="headerlink" title="配置前准备"></a>配置前准备</h1><ul><li> VSCode</li></ul><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ul><li>下载code runner插件 <img src="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/run.png" class="" title="i"></li><li>在settings.json<br>添加<figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"cpp"</span>: <span class="string">"cd $dir &amp;&amp; g++ -std=c++17 $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt"</span></span><br></pre></td></tr></tbody></table></figure></li><li>创建如下几个文件<ul><li>input.txt</li><li>output.txt</li><li>main.cpp<img src="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/file.png" class="" title="im"></li></ul></li><li>在main.cpp里添加下列<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> OI</span></span><br><span class="line">  <span class="built_in">freopen</span>(<span class="string">"input.txt"</span>, <span class="string">"r"</span>, stdin) ;</span><br><span class="line">  <span class="built_in">freopen</span>(<span class="string">"output.txt"</span>, <span class="string">"w"</span>, stdout) ;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></tbody></table></figure><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><img src="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/final.png" class="" title="img">    </li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> VS Code </tag>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ncm/qmc转mp3</title>
       <link href="/2022/01/21/ncm-qmc%E8%BD%ACmp3/"/>
       <url>/2022/01/21/ncm-qmc%E8%BD%ACmp3/</url>
