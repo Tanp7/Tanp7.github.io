@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-02-15T08:18:56.712Z</updated>
+  <updated>2022-02-15T08:20:25.334Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
     <id>https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
     <published>2022-02-15T08:03:26.000Z</published>
-    <updated>2022-02-15T08:18:56.712Z</updated>
+    <updated>2022-02-15T08:20:25.334Z</updated>
     
     
       
@@ -37,9 +37,9 @@
     <category term="macOS" scheme="https://tanp7.github.io/categories/macOS/"/>
     
     
-    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
-    
     <category term="macOS" scheme="https://tanp7.github.io/tags/macOS/"/>
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
   </entry>
   
@@ -92,9 +92,9 @@
     <category term="C++" scheme="https://tanp7.github.io/categories/C/"/>
     
     
-    <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
-    
     <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+    <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
     
   </entry>
   
