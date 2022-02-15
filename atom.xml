@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-02-14T04:27:26.525Z</updated>
+  <updated>2022-02-15T08:18:56.712Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS添加c++万能头</title>
+    <link href="https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
+    <id>https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
+    <published>2022-02-15T08:03:26.000Z</published>
+    <updated>2022-02-15T08:18:56.712Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;方法有很多我只列举一种&quot;&gt;&lt;a href=&quot;#方法有很多我只列举一种&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="macOS" scheme="https://tanp7.github.io/categories/macOS/"/>
+    
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+    <category term="macOS" scheme="https://tanp7.github.io/tags/macOS/"/>
+    
+  </entry>
   
   <entry>
     <title>CodeForces-Educational-Round-122-A&amp;B&amp;C</title>
