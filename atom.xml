@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-02-22T05:36:43.719Z</updated>
+  <updated>2022-02-24T08:43:02.916Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -17,20 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>运筹学笔记</title>
+    <link href="https://tanp7.github.io/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>https://tanp7.github.io/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-02-24T05:53:14.000Z</published>
+    <updated>2022-02-24T08:43:02.916Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;什么是运筹学？&quot;&gt;&lt;a href=&quot;#什么是运筹学？&quot; class=&quot;headerlink&quot; title=&quot;什么是运筹学？&quot;&gt;&lt;/a&gt;什么是运筹学？&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="note" scheme="https://tanp7.github.io/categories/note/"/>
+    
+    
+    <category term="note" scheme="https://tanp7.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>马原笔记</title>
     <link href="https://tanp7.github.io/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/"/>
     <id>https://tanp7.github.io/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/</id>
     <published>2022-02-22T05:23:00.000Z</published>
-    <updated>2022-02-22T05:36:43.719Z</updated>
+    <updated>2022-02-24T07:48:55.327Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;绪论&quot;&gt;&lt;a href=&quot;#绪论&quot; class=&quot;headerlink&quot; title=&quot;绪论&quot;&gt;&lt;/a&gt;绪论&lt;/h1&gt;&lt;h2 id=&quot;马克思主义在当代西方的影响&quot;&gt;&lt;a href=&quot;#马克思主义在当代西方的影响&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;绪论&quot;&gt;&lt;a href=&quot;#绪论&quot; class=&quot;headerlink&quot; title=&quot;绪论&quot;&gt;&lt;/a&gt;绪论&lt;/h1&gt;</summary>
     
     
     
@@ -44,30 +57,10 @@
     <link href="https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
     <id>https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
     <published>2022-02-15T08:03:26.000Z</published>
-    <updated>2022-02-21T12:10:32.900Z</updated>
+    <updated>2022-02-24T07:48:03.893Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;方法有很多我只列举一种&quot;&gt;&lt;a href=&quot;#方法有很多我只列举一种&quot; class=&quot;headerlink&quot; title=&quot;方法有很多我只列举一种.&quot;&gt;&lt;/a&gt;方法有很多我只列举一种.&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;在xcode包里添加效果一样&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;聚焦搜索/Library/Developer/CommandLineTools/SDKS&lt;/li&gt;
-&lt;li&gt;找到自己当前的系统版本, 例如我目前的系统版本是Monterey 12.1, 文件夹的名字就是MacOSX12.1.sdk&lt;/li&gt;
-&lt;li&gt;进入usr文件夹&lt;/li&gt;
-&lt;li&gt;右键include文件夹, 设置全部为读和写&lt;/li&gt;
-&lt;li&gt;新建一个名为bits的文件夹&lt;/li&gt;
-&lt;li&gt;新建名为stdc++.h的文件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;macOS默认finder(访达)不能右键添加文件就很蛋疼, 我列举一种解决方法:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;复制当前目录, cmd+空格 输入terminal, 打开终端, 以我的系统版本12.1输入&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;cd /Library/Developer/CommandLineTools/SDKS/MacOSX12.1.sdk/usr/include/bits/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;进入到目录之后然后,你可以&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;touch stdc++.h&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;或者你比较熟悉终端操作,你可以用你喜欢的编辑器编辑&lt;br&gt;例如:&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vim stdc++.h&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;最后一步&quot;&gt;&lt;a href=&quot;#最后一步&quot; class=&quot;headerlink&quot; title=&quot;最后一步&quot;&gt;&lt;/a&gt;最后一步&lt;/h3&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;方法有很多我只列举一种&quot;&gt;&lt;a href=&quot;#方法有很多我只列举一种&quot; class=&quot;headerlink&quot; title=&quot;方法有很多我只列举一种.&quot;&gt;&lt;/a&gt;方法有很多我只列举一种.&lt;/h2&gt;</summary>
     
     
     
@@ -85,12 +78,10 @@
     <link href="https://tanp7.github.io/2022/02/03/CodeForces-Educational-Round-122-A-B-C/"/>
     <id>https://tanp7.github.io/2022/02/03/CodeForces-Educational-Round-122-A-B-C/</id>
     <published>2022-02-03T12:24:39.000Z</published>
-    <updated>2022-02-21T12:09:12.384Z</updated>
+    <updated>2022-02-24T07:47:32.152Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;A-Div-7&quot;&gt;&lt;a href=&quot;#A-Div-7&quot; class=&quot;headerlink&quot; title=&quot;A. Div. 7&quot;&gt;&lt;/a&gt;A. Div. 7&lt;/h1&gt;&lt;h2 id=&quot;Detils&quot;&gt;&lt;a href=&quot;#Detils&quot; class=&quot;headerlink&quot; title=&quot;Detils&quot;&gt;&lt;/a&gt;Detils&lt;/h2&gt;
-&lt;h2 id=&quot;Solution&quot;&gt;&lt;a href=&quot;#Solution&quot; class=&quot;headerlink&quot; title=&quot;Solution&quot;&gt;&lt;/a&gt;Solution&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;namespace&lt;/span&gt; std; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;ifndef&lt;/span&gt; OI&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;freopen&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;input.txt&quot;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;r&quot;&lt;/span&gt;, stdin);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;built_in&quot;&gt;freopen&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&quot;output.txt&quot;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;w&quot;&lt;/span&gt;, stdout);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;keyword&quot;&gt;endif&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ios_base::&lt;span class=&quot;built_in&quot;&gt;sync_with_stdio&lt;/span&gt;(&lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  cin.&lt;span class=&quot;built_in&quot;&gt;tie&lt;/span&gt;(&lt;span class=&quot;literal&quot;&gt;nullptr&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; t;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  cin &amp;gt;&amp;gt; t;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (t--) {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    cin &amp;gt;&amp;gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; tmp = a / &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt; * &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; c = a / &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; d = tmp / &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; v = a % &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (a % &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      cout &amp;lt;&amp;lt; a &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    } &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (c == d) {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      cout &amp;lt;&amp;lt; tmp &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    } &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;; i &amp;lt;= &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;; i++) {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; ss = c * &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt; + i;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (ss % &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt; == &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) {&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          cout &amp;lt;&amp;lt; ss &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;keyword&quot;&gt;break&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  }&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h1 id=&quot;B-Minority&quot;&gt;&lt;a href=&quot;#B-Minority&quot; class=&quot;headerlink&quot; title=&quot;B. Minority&quot;&gt;&lt;/a&gt;B. Minority&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;A-Div-7&quot;&gt;&lt;a href=&quot;#A-Div-7&quot; class=&quot;headerlink&quot; title=&quot;A. Div. 7&quot;&gt;&lt;/a&gt;A. Div. 7&lt;/h1&gt;</summary>
     
     
     
@@ -110,19 +101,13 @@
     <link href="https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/"/>
     <id>https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/</id>
     <published>2022-01-29T18:14:36.000Z</published>
-    <updated>2022-02-21T12:10:04.505Z</updated>
+    <updated>2022-02-24T07:47:51.346Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h1 id=&quot;配置前准备&quot;&gt;&lt;a href=&quot;#配置前准备&quot; class=&quot;headerlink&quot; title=&quot;配置前准备&quot;&gt;&lt;/a&gt;配置前准备&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt; VSCode&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot;</summary>
-        
-      
+&lt;h1 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot; class=&quot;headerlink&quot; title=&quot;步骤&quot;&gt;&lt;/a&gt;步骤&lt;/h1&gt;</summary>
     
     
     
@@ -140,20 +125,14 @@
     <link href="https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/"/>
     <id>https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/</id>
     <published>2022-01-21T10:32:17.000Z</published>
-    <updated>2022-01-21T10:36:35.962Z</updated>
+    <updated>2022-02-24T07:48:11.041Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h1 id=&quot;你需要准备&quot;&gt;&lt;a href=&quot;#你需要准备&quot; class=&quot;headerlink&quot; title=&quot;你需要准备&quot;&gt;&lt;/a&gt;你需要准备&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;浏览器&lt;/li&gt;
 &lt;li&gt;准备转换格式的ncm/qmc文件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1</summary>
-        
-      
+&lt;h1 id=&quot;具体步骤&quot;&gt;&lt;a href=&quot;#具体步骤&quot; class=&quot;headerlink&quot; title=&quot;具体步骤&quot;&gt;&lt;/a&gt;具体步骤&lt;/h1&gt;</summary>
     
     
     
@@ -171,14 +150,17 @@
     <link href="https://tanp7.github.io/2022/01/19/Debug/"/>
     <id>https://tanp7.github.io/2022/01/19/Debug/</id>
     <published>2022-01-19T04:15:07.869Z</published>
-    <updated>2022-01-19T04:15:07.870Z</updated>
+    <updated>2022-02-24T07:51:34.528Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;提示警告信息如下：&quot;&gt;&lt;a href=&quot;#提示警告信息如下：&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+
+&lt;h2 id=&quot;提示警告信息如下：&quot;&gt;&lt;a href=&quot;#提示警告信息如下：&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -198,16 +180,12 @@
     <link href="https://tanp7.github.io/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/"/>
     <id>https://tanp7.github.io/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/</id>
     <published>2022-01-18T15:14:59.000Z</published>
-    <updated>2022-01-18T15:41:18.454Z</updated>
+    <updated>2022-02-24T07:49:44.912Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一-在clashx中复制终端代理命令&quot;&gt;&lt;a href=&quot;#一-在clashx中复制终端代理命令&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;一-在clashx中复制终端代理命令&quot;&gt;&lt;a href=&quot;#一-在clashx中复制终端代理命令&quot; class=&quot;headerlink&quot; title=&quot;一.在clashx中复制终端代理命令&quot;&gt;&lt;/a&gt;一.在clashx中复制终端代理命令&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;macOS中为cmd+c&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -227,17 +205,10 @@
     <link href="https://tanp7.github.io/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/"/>
     <id>https://tanp7.github.io/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/</id>
     <published>2022-01-17T17:41:56.000Z</published>
-    <updated>2022-01-17T17:48:26.740Z</updated>
+    <updated>2022-02-24T07:48:29.973Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;只需三步&quot;&gt;&lt;a href=&quot;#只需三步&quot; class=&quot;headerlink&quot; title=&quot;只需三步&quot;&gt;&lt;/a&gt;只需三步&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Step 1: Download the hwt document. CV and download</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;只需三步&quot;&gt;&lt;a href=&quot;#只需三步&quot; class=&quot;headerlink&quot; title=&quot;只需三步&quot;&gt;&lt;/a&gt;只需三步&lt;/h1&gt;</summary>
     
     
     
@@ -253,10 +224,16 @@
     <link href="https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/"/>
     <id>https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/</id>
     <published>2022-01-17T17:33:37.000Z</published>
-    <updated>2022-01-17T17:43:52.660Z</updated>
+    <updated>2022-02-24T07:51:07.636Z</updated>
     
     
-    <summary type="html">&lt;p&gt;众所周知，自从高性能独立图形处理器出现之后，很多便携式计算机就会采取一种双显卡的设计：节能的核心图形处理器用于渲染常规的桌面环境，而高性能的独立图形处理器则负责渲染高需求的应用程序。这种技术被称作Optimus智能显卡切换。但是英伟达经常被Linux用户诟病的原因之一，便是一直不对Linux平台上心，不仅没有Linux下的Optimus支持，驱动程序更新也慢半拍。&lt;br&gt;这意味着，Linux用户必须在一次会话中一直使用核心显卡或者一直使用独立显卡;一直使用核心显卡会很节能，但是Hold不住某些应用程序(比如现在很多巨型的3D游戏已经通过Steam登陆了Linux平台)，而一直使用独立显卡将会非常耗电，即使你在做很简单的工作。&lt;br&gt;所幸的是，Linux平台上有一个有名的第三方项目，名叫Bumblebee(大黄蜂)。这个项目目的就是给Linux提供类似Optimus技术的支持。这个项目以前并不出名，但是它某个版本的安装脚本install.sh多敲了一个空格，从而错误地删掉了所有用户的整个/usr，这个事件使它迅速出名并获得了大量的技术支持。这么想也是因祸得福吧。&lt;/p&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
     
     
     
@@ -272,31 +249,18 @@
     <link href="https://tanp7.github.io/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/"/>
     <id>https://tanp7.github.io/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/</id>
     <published>2022-01-17T14:04:18.534Z</published>
-    <updated>2022-01-17T14:04:18.534Z</updated>
+    <updated>2022-02-24T07:51:18.461Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;翻译-写作&quot;&gt;&lt;a href=&quot;#翻译-写作&quot; class=&quot;headerlink&quot; title=&quot;翻译/写作&quot;&gt;&lt;/a&gt;翻译/写作&lt;/h2&gt;&lt;h3 id=&quot;主动&quot;&gt;&lt;a href=&quot;#主动&quot; class=&quot;headerlink&quot; title=&quot;主动&quot;&gt;&lt;/a&gt;主动&lt;/h3&gt;&lt;p&gt;很简单直接略过&lt;/p&gt;
-&lt;h3 id=&quot;被动&quot;&gt;&lt;a href=&quot;#被动&quot; class=&quot;headerlink&quot; title=&quot;被动&quot;&gt;&lt;/a&gt;被动&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;很多人认为合作比个人能力更重要&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Cooperation is cliamed to be more crucial than personal ability.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;人们普遍认为网购已经成为一种流行趋势&lt;/li&gt;
-&lt;li&gt;Online shopping is &lt;u&gt;argued&lt;/u&gt; to be a popular trend among the young and the old.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;在过去的几十年里，政府采取了各种措施防止灾害发生&lt;/li&gt;
-&lt;li&gt;Various measures,in the past decades, have been taken to prevent disasters.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;最近，中国科学院院出版了关于其最新科学发现与未来一年展望的年度系列报告&lt;/li&gt;
-&lt;li&gt;A annual report about its latest scientific fingings and the prospect of the next year was recently published by Chinese Academy of Sciences.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;b&gt;Tip:中文的主动句翻译到英文多为被动句&lt;/b&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;翻译-写作&quot;&gt;&lt;a href=&quot;#翻译-写作&quot; class=&quot;headerlink&quot; title=&quot;翻译/写作&quot;&gt;&lt;/a&gt;翻译/写作&lt;/h2&gt;&lt;h3 id=&quot;主动&quot;&gt;&lt;a href=&quot;#主动&quot;</summary>
+        
+      
     
     
     
@@ -312,7 +276,7 @@
     <link href="https://tanp7.github.io/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/"/>
     <id>https://tanp7.github.io/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</id>
     <published>2022-01-16T16:00:00.000Z</published>
-    <updated>2022-01-18T01:56:08.763Z</updated>
+    <updated>2022-02-24T07:48:42.531Z</updated>
     
     
     <summary type="html">嗯就是一些笔记</summary>
