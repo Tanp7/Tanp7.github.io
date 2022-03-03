@@ -8,7 +8,7 @@
       <link href="/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<h1 id="什么是运筹学？"><a href="#什么是运筹学？" class="headerlink" title="什么是运筹学？"></a>什么是运筹学？</h1><span id="more"></span>    <blockquote><p>问题的最优解（军事、管理······）</p></blockquote><h1 id="1-线性规划-Liner-Programming"><a href="#1-线性规划-Liner-Programming" class="headerlink" title="1.线性规划(Liner Programming)"></a>1.线性规划(Liner Programming)</h1><blockquote><p>研究资源的最优利用， 设备最佳运行···</p></blockquote><h2 id="1-1线性规划的数学模型"><a href="#1-1线性规划的数学模型" class="headerlink" title="1.1线性规划的数学模型"></a>1.1线性规划的数学模型</h2><h3 id="问题1"><a href="#问题1" class="headerlink" title="问题1"></a>问题1</h3><table><thead><tr><th>——</th><th>甲</th><th>乙</th><th>丙</th><th>现有资源</th></tr></thead><tbody><tr><td>设备A</td><td>3</td><td>1</td><td>2</td><td>200</td></tr><tr><td>设备B</td><td>2</td><td>2</td><td>4</td><td>200</td></tr><tr><td>材料A</td><td>4</td><td>5</td><td>1</td><td>360</td></tr><tr><td>材料D</td><td>2</td><td>3</td><td>5</td><td>300</td></tr><tr><td>利润</td><td>40</td><td>30</td><td>50</td><td></td></tr></tbody></table><p>求最大利润：</p><p>数量(50,30,10)</p><h3 id="线性规划的数学模型三要素"><a href="#线性规划的数学模型三要素" class="headerlink" title="线性规划的数学模型三要素"></a>线性规划的数学模型三要素</h3><ul><li>决策变量</li><li>目标函数</li><li>约束条件</li></ul><blockquote><p> ==特征==：</p><ul><li><p> 解决问题的目标函数是多个决策变量的线性函数，通常是求最大值或最小值</p></li><li><p>解决问题的约束条件是一组多个决策变量的线性不等式或等式</p></li></ul></blockquote><h3 id="问题2"><a href="#问题2" class="headerlink" title="问题2"></a>问题2</h3><table><thead><tr><th align="left">星期</th><th align="left">需要人数</th></tr></thead><tbody><tr><td align="left">1</td><td align="left">300</td></tr><tr><td align="left">2</td><td align="left">300</td></tr><tr><td align="left">3</td><td align="left">350</td></tr><tr><td align="left">4</td><td align="left">400</td></tr><tr><td align="left">5</td><td align="left">480</td></tr><tr><td align="left">6</td><td align="left">600</td></tr><tr><td align="left">7</td><td align="left">550</td></tr></tbody></table><p>X1 =  (x4+x5+x6+x7+x1) &gt;= 300</p><p>···以此类推</p><h3 id="问题3"><a href="#问题3" class="headerlink" title="问题3"></a>问题3</h3><blockquote><p>一辆车需要x1=1.5    x2=1    x3=0.7    有4m的钢料，求最少圆钢产出1000量：</p></blockquote><p>列举10种不同方案</p><h3 id="课后作业-1-15-1-16-1-18"><a href="#课后作业-1-15-1-16-1-18" class="headerlink" title="课后作业 1.15 1.16 1.18"></a>课后作业 1.15 1.16 1.18</h3>]]></content>
+        <content type="html"><![CDATA[<h1 id="什么是运筹学？"><a href="#什么是运筹学？" class="headerlink" title="什么是运筹学？"></a>什么是运筹学？</h1><span id="more"></span>    <blockquote><p>问题的最优解（军事、管理······）</p></blockquote><h1 id="1-线性规划-Liner-Programming"><a href="#1-线性规划-Liner-Programming" class="headerlink" title="1.线性规划(Liner Programming)"></a>1.线性规划(Liner Programming)</h1><blockquote><p>研究资源的最优利用， 设备最佳运行···</p></blockquote><h2 id="1-1线性规划的数学模型"><a href="#1-1线性规划的数学模型" class="headerlink" title="1.1线性规划的数学模型"></a>1.1线性规划的数学模型</h2><h3 id="问题1"><a href="#问题1" class="headerlink" title="问题1"></a>问题1</h3><table><thead><tr><th>——</th><th>甲</th><th>乙</th><th>丙</th><th>现有资源</th></tr></thead><tbody><tr><td>设备A</td><td>3</td><td>1</td><td>2</td><td>200</td></tr><tr><td>设备B</td><td>2</td><td>2</td><td>4</td><td>200</td></tr><tr><td>材料A</td><td>4</td><td>5</td><td>1</td><td>360</td></tr><tr><td>材料D</td><td>2</td><td>3</td><td>5</td><td>300</td></tr><tr><td>利润</td><td>40</td><td>30</td><td>50</td><td></td></tr></tbody></table><p>求最大利润：</p><p>数量(50,30,10)</p><h3 id="线性规划的数学模型三要素"><a href="#线性规划的数学模型三要素" class="headerlink" title="线性规划的数学模型三要素"></a>线性规划的数学模型三要素</h3><ul><li>决策变量</li><li>目标函数</li><li>约束条件</li></ul><blockquote><p> ==特征==：</p><ul><li><p> 解决问题的目标函数是多个决策变量的线性函数，通常是求最大值或最小值</p></li><li><p>解决问题的约束条件是一组多个决策变量的线性不等式或等式</p></li></ul></blockquote><h3 id="问题2"><a href="#问题2" class="headerlink" title="问题2"></a>问题2</h3><table><thead><tr><th align="left">星期</th><th align="left">需要人数</th></tr></thead><tbody><tr><td align="left">1</td><td align="left">300</td></tr><tr><td align="left">2</td><td align="left">300</td></tr><tr><td align="left">3</td><td align="left">350</td></tr><tr><td align="left">4</td><td align="left">400</td></tr><tr><td align="left">5</td><td align="left">480</td></tr><tr><td align="left">6</td><td align="left">600</td></tr><tr><td align="left">7</td><td align="left">550</td></tr></tbody></table><p>X1 =  (x4+x5+x6+x7+x1) &gt;= 300</p><p>···以此类推</p><h3 id="问题3"><a href="#问题3" class="headerlink" title="问题3"></a>问题3</h3><blockquote><p>一辆车需要x1=1.5    x2=1    x3=0.7    有4m的钢料，求最少圆钢产出1000量：</p></blockquote><p>列举10种不同方案</p><h3 id="课后作业-1-15-1-16-1-18"><a href="#课后作业-1-15-1-16-1-18" class="headerlink" title="课后作业 1.15 1.16 1.18"></a>课后作业 1.15 1.16 1.18</h3><h3 id="1-1-2线性规划的一般模型"><a href="#1-1-2线性规划的一般模型" class="headerlink" title="1.1.2线性规划的一般模型"></a>1.1.2线性规划的一般模型</h3><ul><li>目标函数的变量系数：价值系数</li><li>约束条件的变量系数：工艺系数</li><li>约束条件右边的常量：资源限量</li></ul><h2 id="1-2图解法"><a href="#1-2图解法" class="headerlink" title="1.2图解法"></a>1.2图解法</h2><p>和高中线性规划图解流程一致。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>线性规划解的四种形式</p><ul><li>有唯一最优解</li><li>有无界解</li><li>有多重解</li><li>无可行解</li></ul><h2 id="1-3线性规划的标准型"><a href="#1-3线性规划的标准型" class="headerlink" title="1.3线性规划的标准型"></a>1.3线性规划的标准型</h2><p>标准型为：</p><ul><li>目标函数求最大值（或求最小值）</li><li>约束条件都为等式方程</li><li>变量xj非负</li><li>常数bi非负</li></ul><p>作業：1.3第一題，</p>]]></content>
       
       
       <categories>
@@ -64,9 +64,9 @@
       
         <tags>
             
-            <tag> C++ </tag>
-            
             <tag> macOS </tag>
+            
+            <tag> C++ </tag>
             
         </tags>
       
@@ -120,9 +120,9 @@
       
         <tags>
             
-            <tag> VS Code </tag>
-            
             <tag> C++ </tag>
+            
+            <tag> VS Code </tag>
             
         </tags>
       
