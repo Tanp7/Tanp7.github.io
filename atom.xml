@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-03-16T11:29:43.155Z</updated>
+  <updated>2022-04-13T08:23:32.098Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS添加c++万能头-Vol0.2</title>
+    <link href="https://tanp7.github.io/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/"/>
+    <id>https://tanp7.github.io/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/</id>
+    <published>2022-04-13T07:14:43.000Z</published>
+    <updated>2022-04-13T08:23:32.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h3 id=&quot;为什么会有vol0-2&quot;&gt;&lt;a href=&quot;#为什么会有vol0-2&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="c++" scheme="https://tanp7.github.io/categories/c/"/>
+    
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
+    
+  </entry>
   
   <entry>
     <title>现实与理想，哪个更重要呢？</title>
@@ -43,7 +70,7 @@
     <link href="https://tanp7.github.io/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
     <id>https://tanp7.github.io/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/</id>
     <published>2022-02-24T05:53:14.000Z</published>
-    <updated>2022-03-24T10:54:13.826Z</updated>
+    <updated>2022-04-07T01:47:30.206Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;什么是运筹学？&quot;&gt;&lt;a href=&quot;#什么是运筹学？&quot; class=&quot;headerlink&quot; title=&quot;什么是运筹学？&quot;&gt;&lt;/a&gt;什么是运筹学？&lt;/h1&gt;</summary>
