@@ -93,9 +93,9 @@
     <category term="c++" scheme="https://tanp7.github.io/categories/c/"/>
     
     
-    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
-    
     <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
     
   </entry>
   
@@ -219,9 +219,9 @@
     <category term="C++" scheme="https://tanp7.github.io/categories/C/"/>
     
     
-    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
-    
     <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
   </entry>
   
