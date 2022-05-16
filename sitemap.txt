@@ -36,11 +36,11 @@ https://zhengzihan.me/tags/VS-Code/
 https://zhengzihan.me/tags/C/
 https://zhengzihan.me/tags/macOs/
 https://zhengzihan.me/tags/macOS/
+https://zhengzihan.me/tags/Music/
+https://zhengzihan.me/tags/NeteaseMusic/
 https://zhengzihan.me/tags/code/
 https://zhengzihan.me/tags/English/
 https://zhengzihan.me/tags/Archlinux/
-https://zhengzihan.me/tags/Music/
-https://zhengzihan.me/tags/NeteaseMusic/
 https://zhengzihan.me/tags/font/
 https://zhengzihan.me/tags/Logistics/
 https://zhengzihan.me/tags/note/
@@ -49,7 +49,7 @@ https://zhengzihan.me/categories/proxy/
 https://zhengzihan.me/categories/C/
 https://zhengzihan.me/categories/c/
 https://zhengzihan.me/categories/macOS/
-https://zhengzihan.me/categories/Review-material/
 https://zhengzihan.me/categories/Music/
+https://zhengzihan.me/categories/Review-material/
 https://zhengzihan.me/categories/Font/
 https://zhengzihan.me/categories/note/
