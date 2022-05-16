@@ -227,7 +227,7 @@
 
   
   <url>
-    <loc>https://tanp7.github.io/tags/atc/</loc>
+    <loc>https://tanp7.github.io/tags/abc/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -255,6 +255,62 @@
   </url>
   
   <url>
+    <loc>https://tanp7.github.io/tags/ssh/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/debug/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/macOS/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/C/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/Music/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/NeteaseMusic/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/macOs/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/Archlinux/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tanp7.github.io/tags/proxy/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -276,35 +332,7 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/macOs/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/C/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/ssh/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/debug/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/abc/</loc>
+    <loc>https://tanp7.github.io/tags/Logistics/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -312,27 +340,6 @@
   
   <url>
     <loc>https://tanp7.github.io/tags/VS-Code/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/Music/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/NeteaseMusic/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/macOS/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -353,13 +360,6 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/Archlinux/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tanp7.github.io/tags/font/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -367,7 +367,7 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/Logistics/</loc>
+    <loc>https://tanp7.github.io/tags/atc/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -390,21 +390,7 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/categories/proxy/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/categories/c/</loc>
-    <lastmod>2022-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/categories/C/</loc>
+    <loc>https://tanp7.github.io/categories/macOS/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,7 +404,14 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/categories/macOS/</loc>
+    <loc>https://tanp7.github.io/categories/c/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/categories/proxy/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -426,6 +419,13 @@
   
   <url>
     <loc>https://tanp7.github.io/categories/Review-material/</loc>
+    <lastmod>2022-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/categories/C/</loc>
     <lastmod>2022-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
