@@ -19,7 +19,7 @@
     <meta name="description" content="众所周知，自从高性能独立图形处理器出现之后，很多便携式计算机就会采取一种双显卡的设计：节能的核心图形处理器用于渲染常规的桌面环境，而高性能的独立图形处理器则负责渲染高需求的应用程序。这种技术被称作Optimus智能显卡切换。但是英伟达经常被Linux用户诟病的原因之一，便是一直不对Linux平台上心，不仅没有Linux下的Optimus支持，驱动程序更新也慢半拍。这意味着，Linux用户必须在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于bumblebee的安装Archlinux双显卡驱动">
-<meta property="og:url" content="https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/index.html">
+<meta property="og:url" content="https://zhengzihan.me/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/index.html">
 <meta property="og:site_name" content="Pz&#39;Home">
 <meta property="og:description" content="众所周知，自从高性能独立图形处理器出现之后，很多便携式计算机就会采取一种双显卡的设计：节能的核心图形处理器用于渲染常规的桌面环境，而高性能的独立图形处理器则负责渲染高需求的应用程序。这种技术被称作Optimus智能显卡切换。但是英伟达经常被Linux用户诟病的原因之一，便是一直不对Linux平台上心，不仅没有Linux下的Optimus支持，驱动程序更新也慢半拍。这意味着，Linux用户必须在">
 <meta property="og:locale" content="zh_CN">
@@ -67,7 +67,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"tanp7.github.io","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
