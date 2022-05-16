@@ -36,12 +36,12 @@ https://tanp7.github.io/tags/terminal/
 https://tanp7.github.io/tags/VS-Code/
 https://tanp7.github.io/tags/C/
 https://tanp7.github.io/tags/macOs/
-https://tanp7.github.io/tags/macOS/
 https://tanp7.github.io/tags/Music/
 https://tanp7.github.io/tags/NeteaseMusic/
+https://tanp7.github.io/tags/macOS/
 https://tanp7.github.io/tags/code/
-https://tanp7.github.io/tags/Archlinux/
 https://tanp7.github.io/tags/English/
+https://tanp7.github.io/tags/Archlinux/
 https://tanp7.github.io/tags/font/
 https://tanp7.github.io/tags/Logistics/
 https://tanp7.github.io/tags/note/
@@ -49,8 +49,8 @@ https://tanp7.github.io/categories/Code/
 https://tanp7.github.io/categories/proxy/
 https://tanp7.github.io/categories/C/
 https://tanp7.github.io/categories/c/
-https://tanp7.github.io/categories/macOS/
 https://tanp7.github.io/categories/Music/
+https://tanp7.github.io/categories/macOS/
 https://tanp7.github.io/categories/Review-material/
 https://tanp7.github.io/categories/Font/
 https://tanp7.github.io/categories/note/
