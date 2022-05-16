@@ -6,7 +6,7 @@
   <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
   <link href="https://tanp7.github.io/"/>
-  <updated>2022-05-16T02:52:50.693Z</updated>
+  <updated>2022-05-16T02:57:43.693Z</updated>
   <id>https://tanp7.github.io/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://tanp7.github.io/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/"/>
     <id>https://tanp7.github.io/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/</id>
     <published>2022-05-16T02:26:32.000Z</published>
-    <updated>2022-05-16T02:52:50.693Z</updated>
+    <updated>2022-05-16T02:57:43.693Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;A-Six-Characters&quot;&gt;&lt;a href=&quot;#A-Six-Characters&quot; class=&quot;headerlink&quot; title=&quot;A.Six Characters&quot;&gt;&lt;/a&gt;A.Six Characters&lt;/h1&gt;&lt;h2</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;A-Six-Characters&quot;&gt;&lt;a href=&quot;#A-Six-Characters&quot; class=&quot;headerlink&quot; title=&quot;A.Six Characters&quot;&gt;&lt;/a&gt;A.Six Characters&lt;/h1&gt;&lt;h2 id=&quot;Problem-Statement&quot;&gt;&lt;a href=&quot;#Problem-Statement&quot; class=&quot;headerlink&quot; title=&quot;Problem Statement&quot;&gt;&lt;/a&gt;Problem Statement&lt;/h2&gt;&lt;p&gt;You are given a string S consisting of lowercase English characters. The length of S is between 1 and 3, inclusive.&lt;/p&gt;
+&lt;p&gt;Print the string of length 6 that is a repetition of S.&lt;/p&gt;
+&lt;p&gt;It can be shown that there uniquely exists such a string under the Constraints of this problem.&lt;/p&gt;
+&lt;h2 id=&quot;Constraints&quot;&gt;&lt;a href=&quot;#Constraints&quot; class=&quot;headerlink&quot; title=&quot;Constraints&quot;&gt;&lt;/a&gt;Constraints&lt;/h2&gt;&lt;p&gt;S is a string consisting of lowercase English characters of length between 1 and 3, inclusive.&lt;/p&gt;
+&lt;h2 id=&quot;题目大意&quot;&gt;&lt;a href=&quot;#题目大意&quot; class=&quot;headerlink&quot; title=&quot;题目大意&quot;&gt;&lt;/a&gt;题目大意&lt;/h2&gt;&lt;p&gt;给定一个长度在1到3之间到字符串，要求重复打印直到总长度为6&lt;/p&gt;
+&lt;h2 id=&quot;题解&quot;&gt;&lt;a href=&quot;#题解&quot; class=&quot;headerlink&quot; title=&quot;题解&quot;&gt;&lt;/a&gt;题解&lt;/h2&gt;&lt;p&gt;很简单&lt;/p&gt;</summary>
     
     
     
@@ -94,9 +93,9 @@
     <category term="c++" scheme="https://tanp7.github.io/categories/c/"/>
     
     
-    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
-    
     <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
+    
+    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
     
   </entry>
   
@@ -220,9 +219,9 @@
     <category term="C++" scheme="https://tanp7.github.io/categories/C/"/>
     
     
-    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
-    
     <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
+    
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
   </entry>
   
