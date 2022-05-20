@@ -16,20 +16,39 @@
   <meta name="author" content="Pz">
   <meta name="keywords" content="blog">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="https://zhengzihan.me/archives/index.html">
+    <meta name="description" content="Install g++ through home-brew.  1brew install gcc OR gcc@12 1brew install gcc@12 Check out the version you just installed, probably 11th or 10th, (let’s suppose it’s the 11th version). 1gcc-11 -v OR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to use gcc instead of clang on macOS">
+<meta property="og:url" content="https://zhengzihan.me/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/index.html">
 <meta property="og:site_name" content="Pz&#39;Home">
+<meta property="og:description" content="Install g++ through home-brew.  1brew install gcc OR gcc@12 1brew install gcc@12 Check out the version you just installed, probably 11th or 10th, (let’s suppose it’s the 11th version). 1gcc-11 -v OR">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-05-20T02:04:08.000Z">
+<meta property="article:modified_time" content="2022-05-20T02:12:01.735Z">
 <meta property="article:author" content="Pz">
 <meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>归档 - Pz&#39;Home</title>
+  <title>How to use gcc instead of clang on macOS - Pz&#39;Home</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -59,7 +78,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -160,9 +179,43 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="归档">
+            <span class="h2" id="subtitle" title="How to use gcc instead of clang on macOS">
               
             </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-05-20 10:04" pubdate>
+        2022年5月20日 上午
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      383 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      4 分钟
+    </span>
+  
+
+  
+  
+</div>
 
             
           </div>
@@ -175,142 +228,94 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 18 篇文章</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2022</p>
-    
-    <a href="/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">How to use gcc instead of clang on macOS</span>
-      <time style="float: right;">05-20</time>
-    </a>
-  
-    
-    <a href="/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">ABC251 A-F题解</span>
-      <time style="float: right;">05-16</time>
-    </a>
-  
-    
-    <a href="/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">ABC250 A-E题解</span>
-      <time style="float: right;">05-09</time>
-    </a>
-  
-    
-    <a href="/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">代码源每日一题（持续更新）</span>
-      <time style="float: right;">05-01</time>
-    </a>
-  
-    
-    <a href="/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">macOS添加c++万能头-Vol0.2</span>
-      <time style="float: right;">04-13</time>
-    </a>
-  
-    
-    <a href="/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">现实与理想，哪个更重要呢？</span>
-      <time style="float: right;">03-16</time>
-    </a>
-  
-    
-    <a href="/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">运筹学笔记</span>
-      <time style="float: right;">02-24</time>
-    </a>
-  
-    
-    <a href="/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">马原笔记</span>
-      <time style="float: right;">02-22</time>
-    </a>
-  
-    
-    <a href="/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">macOS添加c++万能头</span>
-      <time style="float: right;">02-15</time>
-    </a>
-  
-    
-    <a href="/2022/02/03/CodeForces-Educational-Round-122-A-B-C/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">CodeForces-Educational-Round-122-A&amp;B&amp;C</span>
-      <time style="float: right;">02-03</time>
-    </a>
-  
-    
-    <a href="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">macOS 配置VSCode code runner c++</span>
-      <time style="float: right;">01-30</time>
-    </a>
-  
-    
-    <a href="/2022/01/21/ncm-qmc%E8%BD%ACmp3/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">ncm/qmc转mp3</span>
-      <time style="float: right;">01-21</time>
-    </a>
-  
-    
-    <a href="/2022/01/19/Debug/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">云服务器重装系统后ssh无法登陆的问题及解决方案</span>
-      <time style="float: right;">01-19</time>
-    </a>
-  
-    
-    <a href="/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">clashx如何实现终端代理</span>
-      <time style="float: right;">01-18</time>
-    </a>
-  
-    
-    <a href="/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">如何在华为手机安装苹方字体</span>
-      <time style="float: right;">01-18</time>
-    </a>
-  
-    
-    <a href="/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">基于bumblebee的安装Archlinux双显卡驱动</span>
-      <time style="float: right;">01-18</time>
-    </a>
-  
-    
-    <a href="/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">六级复习资料</span>
-      <time style="float: right;">01-17</time>
-    </a>
-  
-    
-    <a href="/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">物流成本笔记</span>
-      <time style="float: right;">01-17</time>
-    </a>
-  
-</div>
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">How to use gcc instead of clang on macOS</h1>
+            
+            <div class="markdown-body">
+              <ol>
+<li><p>Install g++ through home-brew. </p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs zsh">brew install gcc<br></code></pre></td></tr></tbody></table></figure>
+<p>OR gcc@12</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew install gcc@12<br></code></pre></td></tr></tbody></table></figure></li>
+<li><p>Check out the version you just installed, probably 11th or 10th, (let’s suppose it’s the 11th version).</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">gcc-11 -v<br></code></pre></td></tr></tbody></table></figure>
+<p>OR</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">gcc-12 -v<br></code></pre></td></tr></tbody></table></figure></li>
+<li><p>link gcc</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew link gcc<br></code></pre></td></tr></tbody></table></figure>
+<p>OR</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew link gcc@12<br></code></pre></td></tr></tbody></table></figure></li>
+<li><p>make a symbolic link from g++-11/g++-12 to g++</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> g++-11) /usr/<span class="hljs-built_in">local</span>/bin/g++<br></code></pre></td></tr></tbody></table></figure>
+<p>OR</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> g++-12) /usr/<span class="hljs-built_in">local</span>/bin/g++<br></code></pre></td></tr></tbody></table></figure></li>
+<li><p>Optional</p>
+<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> gcc-12) /usr/<span class="hljs-built_in">local</span>/bin/gcc<br></code></pre></td></tr></tbody></table></figure></li>
+</ol>
 
-
-
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/">
+                        <span class="hidden-mobile">ABC251 A-F题解</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -394,6 +399,19 @@
 
 
 
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
 
 
 
@@ -413,6 +431,48 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 

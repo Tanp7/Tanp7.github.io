@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>How to use gcc instead of clang on macOS</title>
+    <link href="/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/"/>
+    <url>/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/</url>
+    
+    <content type="html"><![CDATA[<ol><li><p>Install g++ through home-brew. </p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs zsh">brew install gcc<br></code></pre></td></tr></tbody></table></figure><p>OR gcc@12</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew install gcc@12<br></code></pre></td></tr></tbody></table></figure></li><li><p>Check out the version you just installed, probably 11th or 10th, (let’s suppose it’s the 11th version).</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">gcc-11 -v<br></code></pre></td></tr></tbody></table></figure><p>OR</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">gcc-12 -v<br></code></pre></td></tr></tbody></table></figure></li><li><p>link gcc</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew link gcc<br></code></pre></td></tr></tbody></table></figure><p>OR</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">brew link gcc@12<br></code></pre></td></tr></tbody></table></figure></li><li><p>make a symbolic link from g++-11/g++-12 to g++</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> g++-11) /usr/<span class="hljs-built_in">local</span>/bin/g++<br></code></pre></td></tr></tbody></table></figure><p>OR</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> g++-12) /usr/<span class="hljs-built_in">local</span>/bin/g++<br></code></pre></td></tr></tbody></table></figure></li><li><p>Optional</p><figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo ln -s $(<span class="hljs-built_in">which</span> gcc-12) /usr/<span class="hljs-built_in">local</span>/bin/gcc<br></code></pre></td></tr></tbody></table></figure></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ABC251 A-F题解</title>
     <link href="/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/"/>
     <url>/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/</url>
