@@ -218,9 +218,9 @@
     <category term="macOS" scheme="https://zhengzihan.me/categories/macOS/"/>
     
     
-    <category term="macOS" scheme="https://zhengzihan.me/tags/macOS/"/>
-    
     <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
+    
+    <category term="macOS" scheme="https://zhengzihan.me/tags/macOS/"/>
     
   </entry>
   
@@ -265,9 +265,9 @@
     <category term="C++" scheme="https://zhengzihan.me/categories/C/"/>
     
     
-    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
-    
     <category term="VS Code" scheme="https://zhengzihan.me/tags/VS-Code/"/>
+    
+    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
     
   </entry>
   
