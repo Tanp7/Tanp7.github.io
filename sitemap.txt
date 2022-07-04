@@ -9,15 +9,11 @@ https://zhengzihan.me/about/movies.html
 https://zhengzihan.me/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/
 https://zhengzihan.me/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/
 https://zhengzihan.me/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/
-https://zhengzihan.me/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/
 https://zhengzihan.me/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/
 https://zhengzihan.me/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/
-https://zhengzihan.me/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/
 https://zhengzihan.me/2022/01/19/Debug/
-https://zhengzihan.me/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/
 https://zhengzihan.me/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/
 https://zhengzihan.me/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/
-https://zhengzihan.me/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/
 https://zhengzihan.me/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/
 https://zhengzihan.me/2022/01/21/ncm-qmc%E8%BD%ACmp3/
 https://zhengzihan.me/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/
@@ -44,9 +40,6 @@ https://zhengzihan.me/tags/NeteaseMusic/
 https://zhengzihan.me/tags/Archlinux/
 https://zhengzihan.me/tags/code/
 https://zhengzihan.me/tags/font/
-https://zhengzihan.me/tags/English/
-https://zhengzihan.me/tags/Logistics/
-https://zhengzihan.me/tags/note/
 https://zhengzihan.me/categories/Code/
 https://zhengzihan.me/categories/proxy/
 https://zhengzihan.me/categories/C/
@@ -54,5 +47,3 @@ https://zhengzihan.me/categories/c/
 https://zhengzihan.me/categories/macOS/
 https://zhengzihan.me/categories/Music/
 https://zhengzihan.me/categories/Font/
-https://zhengzihan.me/categories/Review-material/
-https://zhengzihan.me/categories/note/

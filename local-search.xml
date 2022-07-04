@@ -152,50 +152,6 @@
   
   
   <entry>
-    <title>运筹学笔记</title>
-    <link href="/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
-    <url>/2022/02/24/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="什么是运筹学？"><a href="#什么是运筹学？" class="headerlink" title="什么是运筹学？"></a>什么是运筹学？</h1><span id="more"></span>    <blockquote><p>问题的最优解（军事、管理······）</p></blockquote><h1 id="1-线性规划-Liner-Programming"><a href="#1-线性规划-Liner-Programming" class="headerlink" title="1.线性规划(Liner Programming)"></a>1.线性规划(Liner Programming)</h1><blockquote><p>研究资源的最优利用， 设备最佳运行···</p></blockquote><h2 id="1-1线性规划的数学模型"><a href="#1-1线性规划的数学模型" class="headerlink" title="1.1线性规划的数学模型"></a>1.1线性规划的数学模型</h2><h3 id="问题1"><a href="#问题1" class="headerlink" title="问题1"></a>问题1</h3><table><thead><tr><th>——</th><th>甲</th><th>乙</th><th>丙</th><th>现有资源</th></tr></thead><tbody><tr><td>设备A</td><td>3</td><td>1</td><td>2</td><td>200</td></tr><tr><td>设备B</td><td>2</td><td>2</td><td>4</td><td>200</td></tr><tr><td>材料A</td><td>4</td><td>5</td><td>1</td><td>360</td></tr><tr><td>材料D</td><td>2</td><td>3</td><td>5</td><td>300</td></tr><tr><td>利润</td><td>40</td><td>30</td><td>50</td><td></td></tr></tbody></table><p>求最大利润：</p><p>数量(50,30,10)</p><h3 id="线性规划的数学模型三要素"><a href="#线性规划的数学模型三要素" class="headerlink" title="线性规划的数学模型三要素"></a>线性规划的数学模型三要素</h3><ul><li>决策变量</li><li>目标函数</li><li>约束条件</li></ul><blockquote><p> ==特征==：</p><ul><li><p> 解决问题的目标函数是多个决策变量的线性函数，通常是求最大值或最小值</p></li><li><p>解决问题的约束条件是一组多个决策变量的线性不等式或等式</p></li></ul></blockquote><h3 id="问题2"><a href="#问题2" class="headerlink" title="问题2"></a>问题2</h3><table><thead><tr><th align="left">星期</th><th align="left">需要人数</th></tr></thead><tbody><tr><td align="left">1</td><td align="left">300</td></tr><tr><td align="left">2</td><td align="left">300</td></tr><tr><td align="left">3</td><td align="left">350</td></tr><tr><td align="left">4</td><td align="left">400</td></tr><tr><td align="left">5</td><td align="left">480</td></tr><tr><td align="left">6</td><td align="left">600</td></tr><tr><td align="left">7</td><td align="left">550</td></tr></tbody></table><p>X1 =  (x4+x5+x6+x7+x1) &gt;= 300</p><p>···以此类推</p><h3 id="问题3"><a href="#问题3" class="headerlink" title="问题3"></a>问题3</h3><blockquote><p>一辆车需要x1=1.5    x2=1    x3=0.7    有4m的钢料，求最少圆钢产出1000量：</p></blockquote><p>列举10种不同方案</p><h3 id="课后作业-1-15-1-16-1-18"><a href="#课后作业-1-15-1-16-1-18" class="headerlink" title="课后作业 1.15 1.16 1.18"></a>课后作业 1.15 1.16 1.18</h3><h3 id="1-1-2线性规划的一般模型"><a href="#1-1-2线性规划的一般模型" class="headerlink" title="1.1.2线性规划的一般模型"></a>1.1.2线性规划的一般模型</h3><ul><li>目标函数的变量系数：价值系数</li><li>约束条件的变量系数：工艺系数</li><li>约束条件右边的常量：资源限量</li></ul><h2 id="1-2图解法"><a href="#1-2图解法" class="headerlink" title="1.2图解法"></a>1.2图解法</h2><p>和高中线性规划图解流程一致。</p><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>线性规划解的四种形式</p><ul><li>有唯一最优解</li><li>有无界解</li><li>有多重解</li><li>无可行解</li></ul><h2 id="1-3线性规划的标准型"><a href="#1-3线性规划的标准型" class="headerlink" title="1.3线性规划的标准型"></a>1.3线性规划的标准型</h2><p>标准型为：</p><ul><li>目标函数求最大值（或求最小值）</li><li>约束条件都为等式方程</li><li>变量xj非负</li><li>常数bi非负</li></ul><p>作業：1.3第一題，</p><h2 id="1-4-单纯形法计算"><a href="#1-4-单纯形法计算" class="headerlink" title="1.4 单纯形法计算"></a>1.4 单纯形法计算</h2><p><img src="/Users/pz/zzh-blog/source/_posts/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0.assets/image-20220310143534474.png" alt="image-20220310143534474"></p><p><img src="/Users/pz/zzh-blog/source/_posts/%E8%BF%90%E7%AD%B9%E5%AD%A6%E7%AC%94%E8%AE%B0.assets/image-20220310150609163.png" alt="image-20220310150609163"></p><h2 id="1-5-单纯形法"><a href="#1-5-单纯形法" class="headerlink" title="1.5 单纯形法"></a>1.5 单纯形法</h2><p>解的判断：</p><ul><li>唯一最优解的判断：最优表中过所有非变量的检验数非零，则线性规划具有唯一最优解</li><li>多重最优解的判断：最优表中存在非基变量的检验数为零，则线性规划具有多重最优解</li><li>无界解的判断：某个rk&gt;0 且Aik &lt;= 0 则线性规划具有无界解</li><li>无可行解的判断：（1）当用大M单纯形法计算得到的最优解并且存在Rt&gt;0时，则表明线性规划无可行解</li><li>当第一阶段的最优值w!=0时，则原问题无可行解</li></ul><h1 id="2-对偶理论"><a href="#2-对偶理论" class="headerlink" title="2. 对偶理论"></a>2. 对偶理论</h1><h2 id="2-1-对偶计算"><a href="#2-1-对偶计算" class="headerlink" title="2.1 对偶计算"></a>2.1 对偶计算</h2><h2 id="2-2-对偶性质"><a href="#2-2-对偶性质" class="headerlink" title="2.2 对偶性质"></a>2.2 对偶性质</h2><ol><li>对偶问题的对偶是原问题</li><li>原问题的上界就是对偶问题的下界（反之同理）</li><li>若原问题可行且另一个问题不可行，则原问题具有无界解</li><li>如果x0,y0是原问题和对偶问题的可行解，则当x0、y0是原问题与对偶问题的最优解当且仅当</li><li>若护卫对偶的两个问题其中一个有最优解，另一个问题也有最优解</li><li>互补松弛定理</li></ol><h1 id="4-目标规划的数学模型"><a href="#4-目标规划的数学模型" class="headerlink" title="4. 目标规划的数学模型"></a>4. 目标规划的数学模型</h1>]]></content>
-    
-    
-    <categories>
-      
-      <category>note</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>note</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>马原笔记</title>
-    <link href="/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/"/>
-    <url>/2022/02/22/%E9%A9%AC%E5%8E%9F%E7%AC%94%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h1><span id="more"></span>    <h2 id="马克思主义在当代西方的影响"><a href="#马克思主义在当代西方的影响" class="headerlink" title="马克思主义在当代西方的影响"></a>马克思主义在当代西方的影响</h2><blockquote><p> 世界的社会主义运动走入低潮，但是马克思主义的研究却走向高潮</p></blockquote><h2 id="马克思主义是什么？-4个角度"><a href="#马克思主义是什么？-4个角度" class="headerlink" title="马克思主义是什么？ 4个角度"></a>马克思主义是什么？ 4个角度</h2><ul><li>创造主体： 有马克思恩格斯创立的（狭），有后继者不断丰富和发展的科学理论体系（广）</li><li>阶级属性： 关于无产阶级解放、全人类解放和每个人自由而全面发展的学说</li><li>研究对象： 是关于自然、社会和人类思维发展一般规律的学说</li><li>主要内容： 马克思主义哲学、马克思主义政治经济学和科学社会主义是其三个基本组成内容</li></ul><h2 id="马克思主义内容的三个部分"><a href="#马克思主义内容的三个部分" class="headerlink" title="马克思主义内容的三个部分"></a>马克思主义内容的三个部分</h2><ul><li>马哲 1-3章 <strong>重点</strong></li><li>政治经济学 </li><li>科学社会主义 </li></ul><h1 id="马哲"><a href="#马哲" class="headerlink" title="马哲"></a>马哲</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>19世纪40年代欧洲资本主义的发展</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>note</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>macOS添加c++万能头</title>
     <link href="/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
     <url>/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</url>
@@ -404,56 +360,6 @@
     <tags>
       
       <tag>Archlinux</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>六级复习资料</title>
-    <link href="/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/"/>
-    <url>/2022/01/17/%E5%85%AD%E7%BA%A7%E5%BF%85%E8%BF%87%EF%BC%81%EF%BC%81/</url>
-    
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="翻译-写作"><a href="#翻译-写作" class="headerlink" title="翻译/写作"></a>翻译/写作</h2><h3 id="主动"><a href="#主动" class="headerlink" title="主动"></a>主动</h3><p>很简单直接略过</p><h3 id="被动"><a href="#被动" class="headerlink" title="被动"></a>被动</h3><ul><li><p>很多人认为合作比个人能力更重要</p></li><li><p>Cooperation is cliamed to be more crucial than personal ability.</p></li></ul><ul><li>人们普遍认为网购已经成为一种流行趋势</li><li>Online shopping is <u>argued</u> to be a popular trend among the young and the old.</li></ul><ul><li>在过去的几十年里，政府采取了各种措施防止灾害发生</li><li>Various measures,in the past decades, have been taken to prevent disasters.</li></ul><ul><li>最近，中国科学院院出版了关于其最新科学发现与未来一年展望的年度系列报告</li><li>A annual report about its latest scientific fingings and the prospect of the next year was recently published by Chinese Academy of Sciences.</li></ul><blockquote><p><b>Tip:中文的主动句翻译到英文多为被动句</b></p></blockquote><h3 id="并列句"><a href="#并列句" class="headerlink" title="并列句"></a>并列句</h3><p>常见逻辑关系词</p><ul><li>表示因果<ul><li>表示原因<ul><li>because    in that    as    since</li><li>Because of=be responsible for=due to=owing to=thanks to</li></ul></li><li>表示结果<ul><li>so=hence=therefore=thereby=thus=consequently=in consequence = as a result/consequence</li></ul></li></ul></li><li>表示对比<ul><li>相似性对比<ul><li>Likewise = similarly = equally simultaneously = at the same time =meanwhile</li></ul></li><li>表示差异性对比<ul><li>but , by contrast = conversely = alternatively = on the contrary = on the other hand = otherwise = while = whereas</li></ul></li><li>表示递进<ul><li>Besides = also = in addition = moreover = furthermore = put another way</li></ul></li><li>表示让步<ul><li>Despite = in spite of = notwithstanding = although = though = as</li><li>certainly = of course = indeed </li><li>There is no doubt that = there is no denying that 不可否认的是</li><li>In effect/fact/reality = indeed = virtually 实际上</li></ul></li><li>表示引出新对象<ul><li>About = concerning = regarding = with regard to = as for/to = in respect of </li><li>In terms of 就······而论，在···方面</li><li>when it comes to···    当提到···时</li></ul></li><li>表示强调<ul><li>Above all = most important </li><li>in effect / fact / reality = indeed = virtually</li></ul></li><li>表示总结<ul><li>on the whole = all in all = overall = in conclusion</li><li>in short</li></ul></li><li>举例<ul><li>Like = such as = for instance / example = a good case in point is</li></ul></li></ul></li></ul><ul><li>在过去的一千年里，乌镇的水系和生活方式并为经历多少变化时一座展现古文明的博物馆。</li><li>In the past thousand years, the water system and the lifeway in Wuzhen have not gone through many changes.Therefore, it now is the museum  to show ancient civilization.</li></ul><ul><li>在山东潍坊市，风筝不仅仅是玩具，而且还是这座城市文化的标志。</li><li>In Weifang, Shandong, kites are not only toys but also the symbols of cultures of the city.</li></ul><ul><li>这些资金用于改善教育设施、购买书籍，使16万多所中小学收益。资金还用于购置音乐和绘画器材。现在农村和山区的儿童可以与沿海城市的儿童一样上音乐课和绘画课。</li><li><del><b>These funds is used to improving the tools of education and buying books, benefited more than 1.6 million schools.As the same time, these fund are also used to buying the musical and painting tools. Now, child in country and mountain areas can take the musicial lesson and the painting lessons as same as the child living in city.</b></del></li><li><b><font color="blue">These funds are used to improve educational facilities, purchase books and more than 160 thousand primary schools and middle schools benefits. As a consequence, nowadays the children in rural areas can have music and painting classes as same as the children do in coastal cities.</font></b></li></ul><ul><li>由于这个传统，许多年轻人婚后继续与父母同住。今天，这个传统正在改变。随着住房条件的改善，许多越来越多年轻夫妇选择与父母分开住。但他们之间的联系依然很紧密。许多老年人仍然帮着照看长辈。年轻夫妇也抽时间探望父母，特别是在春节和中秋节等重要节日。</li><li><b>As a result of this tradition, many young people continue to live with parents after marriage. <u>By contrast</u>, today, the tradition is changing.With the improvement of housing conditions, an increasing number of young couples chose to live apart from their parents. <u>Nevertheless</u>, the connection between them remains strong. Many old people still have to look after their grandchildren. At the same time, yong couples also get around to visit their parents, especially during the holidays, as the spring festival and Mid-autumn Festival.</b></li></ul><h3 id="复合句"><a href="#复合句" class="headerlink" title="复合句"></a>复合句</h3><h4 id="主语从句"><a href="#主语从句" class="headerlink" title="主语从句"></a>主语从句</h4><blockquote><p><b><font color="red">It is····that</font></b></p></blockquote><ul><li>大学教育极大地促进了社会的进步时显而易见的。</li><li><strong><font color="blue">It is <font color="red">beyond dispute(无可争议的)</font> that university education spromotes the progress of our society obviously.</font></strong></li></ul><h4 id="同位语"><a href="#同位语" class="headerlink" title="同位语"></a>同位语</h4><blockquote><p><b><font color="red">用于名词后面</font></b></p></blockquote><ul><li>I like the cat, which is cute animal.</li><li>Garbage sorting, a necessary behavior to control pollution, proves quite crucial throughout China.</li><li>Hunting for jobs, a hot topic among undergraduates, has become the public concern recently</li><li>Optimism, an active mentality, plays a key role in the general routine of everyday living.</li></ul><h4 id="定语和定语从句"><a href="#定语和定语从句" class="headerlink" title="定语和定语从句"></a>定语和定语从句</h4><ul><li>I love the girl of kindness</li><li>I love the girl as kind as an angel</li><li>I love the girl who keeps so kind</li></ul><h5 id="Example-定语从句"><a href="#Example-定语从句" class="headerlink" title="Example(定语从句)"></a>Example(定语从句)</h5><p>乌镇是浙江的一座古老水镇，坐落在京杭大运河畔。这是一处迷人的地方，有许多古桥、中式旅馆和餐馆。</p><p><b><del>Wu zhen is a Zhejiang ancient vallage located on the coast of Jing hang River, which is a fancy place with a group of ancient bridge, chinese hotel and restaurants.</del></b></p><p><b><font color="blue">Wuzhen, which is an ancient water town of Zhejiang province, is located near the Beijing-Hangzhou Grand Canal, which is really a charming place with many ancient bridges, Chinese style hotels and restaurants there.</font></b></p><p>剪纸(Paper cutting)是中国最为流行的传统民间艺术形式之一.中国剪纸有一千五百多年的历史,在明朝和清朝时期(The Ming and Qing Dynasties)特别流行.</p><p><strong><del>Paper cutting is the most popular arts in China, which trace back to nearly BC 500, especially got popular during the Ming and Qing Dynasties.</del></strong></p><p><strong><font color="blue">Paper cutting is one of the most popular arts in china which has a history of 1.5 thound years and was quite famous in the Ming and Qing Dynasties.</font></strong></p><h4 id="状语和状语从句"><a href="#状语和状语从句" class="headerlink" title="状语和状语从句"></a>状语和状语从句</h4><p>![image-20211214104339048](/Users/pz/Library/Application Support/typora-user-images/image-20211214104339048.png)</p><h3 id="三大经典句型"><a href="#三大经典句型" class="headerlink" title="三大经典句型"></a>三大经典句型</h3><p>![image-20211214105753838](/Users/pz/Library/Application Support/typora-user-images/image-20211214105753838.png)</p><p>![image-20211214105858346](/Users/pz/Library/Application Support/typora-user-images/image-20211214105858346.png)</p><p>![image-20211214105954939](/Users/pz/Library/Application Support/typora-user-images/image-20211214105954939.png)</p><p>![image-20211214110032622](/Users/pz/Library/Application Support/typora-user-images/image-20211214110032622.png)</p><p>![image-20211214110156238](/Users/pz/Library/Application Support/typora-user-images/image-20211214110156238.png)</p><ul><li>句子扩写</li></ul><p>Smile (    ) makes people(    ) love you.</p><p>Smile, the best means for communicating, make people who may look serious and distant love you at first sight.</p><h2 id="作文真题"><a href="#作文真题" class="headerlink" title="作文真题"></a>作文真题</h2><h3 id="题1"><a href="#题1" class="headerlink" title="题1"></a>题1</h3><p>![image-20211214111738200](/Users/pz/Library/Application Support/typora-user-images/image-20211214111738200.png)</p><h4 id="范文："><a href="#范文：" class="headerlink" title="范文："></a>范文：</h4><blockquote><p><strong><font color="red">作文开头由两句话组成：引出中心+个人观点</font></strong></p></blockquote><p><strong>There exists, among teenagers and youngster, s hot debate on the importance of motivation and methods in learning. From my perspective, it is motivation and methods that prove to be more crucial than the study itself.</strong></p><blockquote><p><strong><font color="red">第二段：引出原因分析的总体句+2~3个具体原因分析</font></strong></p></blockquote><p><strong>Quite a few factors, as a matter of fact, could account for opinion. As the primary element, Motivation can make us brave in front of difficulties. If we desire to complete heavy tasks smoothly, it is motivation that would make us be confronted with troubles without fear. One of Chinese famous businessmen, Mayun, is a good case in point. Before he became the top man known to all, he had failed thousands of times. Without motivation, he might got nothing. Besides, proper methods are crucial. Because right ways enable you to attain what you want rapidly and effective. The more efficiently you study, the greater success you will achieve.</strong></p><blockquote><p><strong><font color="red">第三段：总结+两个措施+喊口号</font></strong></p></blockquote><p><strong>In a word, motivation and methods play a vital role in the study of youngsters. So parents should educate their kids to study with a right method and motivation. As a university student, we should explore more effectively ways to learn. Only in such ways of thinking can our work be done rapidly and comfortably.</strong></p><h3 id="题2"><a href="#题2" class="headerlink" title="题2"></a>题2</h3><p>![image-20211214160741442](/Users/pz/Library/Application Support/typora-user-images/image-20211214160741442.png)</p><h4 id="范文：-1"><a href="#范文：-1" class="headerlink" title="范文："></a>范文：</h4><p><strong>There is no doubt that the issue about community responsibility has caused wide public attention recently. From my perspective, it is indispensable both in social development and individual improvement.</strong></p><p><strong>It is quite a few causes that could account for my argument. First and foremost, not only is a strong sense of community responsibility helpful to develop harmonious interpersonal relationships but also is beneficial to personal development. As we all know, the sound working atmosphere and interpersonal relationships among employees are crucial to both physical and mental pleasure. In addition, community responsibility can improve efficiency in the fast-paced modern society where time is money and efficiency holds the key to success. As a saying goes,”united, we stand; divided, we fall”. So great importance should be attached to the cultivation of the sense of community responsibility and we will eventually benefit from it.</strong></p><p><strong>From what has been mentioned above, we can safely draw the conclusion that sense of community responsibility is a kind of good personal quality, which deserves our attention. So it is worth of our attention under modern conditions. Only in this way can we have a harmonious society.</strong></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="开头"><a href="#开头" class="headerlink" title="开头"></a>开头</h3><p><strong><font color="red">引出中心+个人观点</font></strong></p><h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p><strong><font color="red">引出原因分析总体句+2～3个具体原因分析</font></strong></p><h4 id="无话可说？"><a href="#无话可说？" class="headerlink" title="无话可说？"></a>无话可说？</h4><ul><li><p>分类论证</p><ul><li><p>对于个人有什么影响    For individuals</p></li><li><p>对于集体有什么影响    For the collective</p></li></ul></li><li><p>举例论证</p></li></ul><h3 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h3><ul><li>Only by taking certain steps can people make full use of …</li><li>So shouldn’t human being pay much attention to the meaningful saying/problem?</li><li>So under no account could people divert attention from sth.</li><li>The more actively people face the problem, the more happily they will lead their life.</li><li>It is high time that the subject about … became a focus among youngsters.</li></ul><h2 id="作文25min-预读听力5min-听力30min-仔细阅读20min-长篇阅读15min-翻译25min-选词填空7-8min"><a href="#作文25min-预读听力5min-听力30min-仔细阅读20min-长篇阅读15min-翻译25min-选词填空7-8min" class="headerlink" title="作文25min + 预读听力5min + 听力30min + 仔细阅读20min + 长篇阅读15min + 翻译25min + 选词填空7-8min"></a>作文25min + 预读听力5min + 听力30min + 仔细阅读20min + 长篇阅读15min + 翻译25min + 选词填空7-8min</h2>]]></content>
-    
-    
-    <categories>
-      
-      <category>Review material</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>English</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>物流成本笔记</title>
-    <link href="/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/"/>
-    <url>/2022/01/17/%E7%89%A9%E6%B5%81%E6%88%90%E6%9C%AC/</url>
-    
-    <content type="html"><![CDATA[<h2 id="1-物流成本管理"><a href="#1-物流成本管理" class="headerlink" title="1.物流成本管理"></a>1.物流成本管理</h2><!-- more --> <ul><li>目标成本法<ul><li>以市场为向导，围绕企业的经营利润为目标</li><li>管理范围和管理重点都以事前事中为主</li><li>管理责任强调目标成本指标的分解，各部门责任</li></ul></li><li>传统成本法<ul><li>事后为主，总结经验</li></ul></li></ul><h2 id="2-标准成本法"><a href="#2-标准成本法" class="headerlink" title="2.标准成本法"></a>2.标准成本法</h2><ul><li>实际成本 = 标准成本 + 成本差异</li></ul><blockquote><p>物流成本由物流服务的直接材料费用、直接人工费用和间接费用三部分组成。两个标准 用量标准 价格标准</p></blockquote><h2 id="物流成本管理绩效评价概述"><a href="#物流成本管理绩效评价概述" class="headerlink" title="物流成本管理绩效评价概述"></a>物流成本管理绩效评价概述</h2><hr><ul><li>评价步骤<ul><li>撰写报告</li><li>建立机构</li><li>制定方案</li><li>收集信息</li><li>进行评估</li></ul></li></ul><blockquote><p>KPI：Key Performance Indicators 关键绩效指标</p></blockquote>]]></content>
-    
-    
-    <categories>
-      
-      <category>Review material</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Logistics</tag>
       
     </tags>
     
