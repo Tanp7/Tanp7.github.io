@@ -30,30 +30,25 @@
 <meta name="twitter:card" content="summary_large_image">
   
   
+  
   <title>CF795div2 A-D题解 - Pz&#39;Home</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
 
+
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
 
-  
-    
-    
-      
-      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
-    
-  
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
 
-  
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
-  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
 
 
 
@@ -62,24 +57,45 @@
 
 <link  rel="stylesheet" href="/css/main.css" />
 
-<!-- 自定义样式保持在最底部 -->
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
 
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
-<meta name="generator" content="Hexo 6.0.0">
+  
+
+
+  
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Pz'Home" type="application/atom+xml">
 </head>
 
 
 <body>
-  <header style="height: 70vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
       <strong>Pz&#39; Home</strong>
@@ -161,6 +177,7 @@
               &nbsp;<i class="iconfont icon-search"></i>&nbsp;
             </a>
           </li>
+          
         
         
           <li class="nav-item" id="color-toggle-btn">
@@ -173,57 +190,71 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/lt.png') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="CF795div2 A-D题解">
-              
-            </span>
-
-            
-              <div class="mt-3">
-  
-  
-    <span class="post-meta">
-      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-06-01 17:57" pubdate>
-        2022年6月1日 下午
-      </time>
-    </span>
-  
-</div>
-
-<div class="mt-1">
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      7.2k 字
-    </span>
   
 
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      60 分钟
-    </span>
-  
-
-  
-  
-</div>
-
-            
-          </div>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/lt.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="CF795div2 A-D题解"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-06-01 17:57" pubdate>
+          2022年6月1日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          <!-- compatible with older versions-->
+          7.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          <!-- compatible with older versions-->
+          60 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
       </div>
+
+      
     </div>
+  </div>
+</div>
+
+</div>
+
   </header>
 
   <main>
@@ -232,20 +263,26 @@
 
 <div class="container-fluid nopadding-x">
   <div class="row nomargin-x">
-    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
     <div class="col-lg-8 nopadding-x-md">
       <div class="container nopadding-x-md" id="board-ctn">
-        <div class="py-5" id="board">
+        <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
             <h1 style="display: none">CF795div2 A-D题解</h1>
             
-            <div class="markdown-body">
-              <h2 id="A-Beat-The-Odds"><a href="#A-Beat-The-Odds" class="headerlink" title="A. Beat The Odds"></a>A. Beat The Odds</h2><p>Given a sequence 𝑎1,𝑎2,…,𝑎𝑛, find the minimum number of elements to remove from the sequence such that after the removal, the sum of every 2 consecutive elements is even.</p>
+            
+              <div class="markdown-body">
+                
+                <h2 id="A-Beat-The-Odds"><a href="#A-Beat-The-Odds" class="headerlink" title="A. Beat The Odds"></a>A. Beat The Odds</h2><p>Given a sequence 𝑎1,𝑎2,…,𝑎𝑛, find the minimum number of elements to remove from the sequence such that after the removal, the sum of every 2 consecutive elements is even.</p>
 <h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><blockquote>
 <p>其实就是求数列中的奇数和偶数的最小值，快速签到</p>
 </blockquote>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></div></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> edl std::cout &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) std::cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> cmuticases() int T;scanf(<span class="hljs-meta-string">"%d"</span>,&amp;T);while(T--)solve();</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int T;std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">const</span> ll mod=<span class="hljs-number">998244353</span>;<br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">rnd</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span> </span>{ <span class="hljs-keyword">return</span> <span class="hljs-built_in">mrand</span>() % x;}<br><span class="hljs-function">ll <span class="hljs-title">powmod</span><span class="hljs-params">(ll a,ll b)</span> </span>{ll res=<span class="hljs-number">1</span>;a%=mod; <span class="hljs-built_in">assert</span>(b&gt;=<span class="hljs-number">0</span>); <span class="hljs-keyword">for</span>(;b;b&gt;&gt;=<span class="hljs-number">1</span>){<span class="hljs-keyword">if</span>(b&amp;<span class="hljs-number">1</span>)res=res*a%mod;a=a*a%mod;}<span class="hljs-keyword">return</span> res;}<br><span class="hljs-function">ll <span class="hljs-title">gcd</span><span class="hljs-params">(ll a,ll b)</span> </span>{ <span class="hljs-keyword">return</span> b?<span class="hljs-built_in">gcd</span>(b,a%b):a;}<br><span class="hljs-comment">//using namespace std;</span><br><span class="hljs-comment">//#define int long long</span><br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-keyword">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-keyword">int</span> n;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-function">std::vector&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">a</span><span class="hljs-params">(n)</span></span>;<br>	<span class="hljs-keyword">int</span> cnt1 = <span class="hljs-number">0</span>, cnt2 = <span class="hljs-number">0</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> &amp;i : a) {<br>		std::cin &gt;&gt; i;<br>		<span class="hljs-keyword">if</span>(i % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>)<br>			cnt1++;<br>		<span class="hljs-keyword">else</span><br>			cnt2++;<br>	}<br>	std::cout &lt;&lt; std::<span class="hljs-built_in">min</span>(cnt1,cnt2) &lt;&lt; <span class="hljs-string">'\n'</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    FAST;<br>    <span class="hljs-built_in">muticases</span>();<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> edl std::cout &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) std::cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> cmuticases() int T;scanf(<span class="hljs-string">"%d"</span>,&amp;T);while(T--)solve();</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int T;std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-type">unsigned</span> <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-type">const</span> ll mod=<span class="hljs-number">998244353</span>;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">rnd</span><span class="hljs-params">(<span class="hljs-type">int</span> x)</span> </span>{ <span class="hljs-keyword">return</span> <span class="hljs-built_in">mrand</span>() % x;}<br><span class="hljs-function">ll <span class="hljs-title">powmod</span><span class="hljs-params">(ll a,ll b)</span> </span>{ll res=<span class="hljs-number">1</span>;a%=mod; <span class="hljs-built_in">assert</span>(b&gt;=<span class="hljs-number">0</span>); <span class="hljs-keyword">for</span>(;b;b&gt;&gt;=<span class="hljs-number">1</span>){<span class="hljs-keyword">if</span>(b&amp;<span class="hljs-number">1</span>)res=res*a%mod;a=a*a%mod;}<span class="hljs-keyword">return</span> res;}<br><span class="hljs-function">ll <span class="hljs-title">gcd</span><span class="hljs-params">(ll a,ll b)</span> </span>{ <span class="hljs-keyword">return</span> b?<span class="hljs-built_in">gcd</span>(b,a%b):a;}<br><span class="hljs-comment">//using namespace std;</span><br><span class="hljs-comment">//#define int long long</span><br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-type">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-type">int</span> n;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-function">std::vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">a</span><span class="hljs-params">(n)</span></span>;<br>	<span class="hljs-type">int</span> cnt1 = <span class="hljs-number">0</span>, cnt2 = <span class="hljs-number">0</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> &amp;i : a) {<br>		std::cin &gt;&gt; i;<br>		<span class="hljs-keyword">if</span>(i % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>)<br>			cnt1++;<br>		<span class="hljs-keyword">else</span><br>			cnt2++;<br>	}<br>	std::cout &lt;&lt; std::<span class="hljs-built_in">min</span>(cnt1,cnt2) &lt;&lt; <span class="hljs-string">'\n'</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    FAST;<br>    <span class="hljs-built_in">muticases</span>();<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="B-Shoe-Shuffling"><a href="#B-Shoe-Shuffling" class="headerlink" title="B. Shoe Shuffling"></a>B. Shoe Shuffling</h2><p>A class of students got bored wearing the same pair of shoes every day, so they decided to shuffle their shoes among themselves. In this problem, a pair of shoes is inseparable and is considered as a single object.</p>
 <p>There are 𝑛 students in the class, and you are given an array 𝑠 in non-decreasing order, where 𝑠𝑖 is the shoe size of the 𝑖-th student. A shuffling of shoes is valid only if no student gets their own shoes and if every student gets shoes of size greater than or equal to their size.</p>
@@ -255,7 +292,7 @@
 <blockquote>
 <p>没有看到题目中的sorted卡了一会</p>
 </blockquote>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i, l, n) for (int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> edl std::cout &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) std::cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> cmuticases()                                                           \</span><br><span class="hljs-meta">  int T;                                                                       \</span><br><span class="hljs-meta">  scanf(<span class="hljs-meta-string">"%d"</span>, &amp;T);                                                             \</span><br><span class="hljs-meta">  while (T--)                                                                  \</span><br><span class="hljs-meta">    solve();</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases()                                                            \</span><br><span class="hljs-meta">  int T;                                                                       \</span><br><span class="hljs-meta">  std::cin &gt;&gt; T;                                                               \</span><br><span class="hljs-meta">  while (T--)                                                                  \</span><br><span class="hljs-meta">    solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">const</span> ll mod = <span class="hljs-number">998244353</span>;<br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">rnd</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x)</span> </span>{ <span class="hljs-keyword">return</span> <span class="hljs-built_in">mrand</span>() % x; }<br><span class="hljs-function">ll <span class="hljs-title">powmod</span><span class="hljs-params">(ll a, ll b)</span> </span>{<br>  ll res = <span class="hljs-number">1</span>;<br>  a %= mod;<br>  <span class="hljs-built_in">assert</span>(b &gt;= <span class="hljs-number">0</span>);<br>  <span class="hljs-keyword">for</span> (; b; b &gt;&gt;= <span class="hljs-number">1</span>) {<br>    <span class="hljs-keyword">if</span> (b &amp; <span class="hljs-number">1</span>)<br>      res = res * a % mod;<br>    a = a * a % mod;<br>  }<br>  <span class="hljs-keyword">return</span> res;<br>}<br><span class="hljs-function">ll <span class="hljs-title">gcd</span><span class="hljs-params">(ll a, ll b)</span> </span>{ <span class="hljs-keyword">return</span> b ? <span class="hljs-built_in">gcd</span>(b, a % b) : a; }<br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> int long long</span><br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-keyword">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-keyword">int</span> n; std::cin &gt;&gt; n;<br>	std::map&lt;<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>&gt; mp;<br>	<span class="hljs-function">std::vector&lt;PII&gt; <span class="hljs-title">a</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span></span>;<br>	<span class="hljs-built_in">rep</span>(i,<span class="hljs-number">1</span>,n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; a[i].se;<br>		mp[a[i].se]++;<br>		a[i].fi = i;<br>	}<br>	<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> [x,cnt] : mp) {<br>		<span class="hljs-keyword">if</span>(cnt == <span class="hljs-number">1</span>) {<br>			std::cout &lt;&lt; <span class="hljs-string">"-1\n"</span>;<br>			<span class="hljs-keyword">return</span>;<br>		}<br>	}<br><br>	<span class="hljs-keyword">int</span> fi = <span class="hljs-number">1</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++) {<br>		<span class="hljs-keyword">if</span>(a[i].se != a[i+<span class="hljs-number">1</span>].se &amp;&amp; i+<span class="hljs-number">1</span> &lt;= n) {<br>			std::cout &lt;&lt; i &lt;&lt; <span class="hljs-string">' '</span>;<br>			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = fi; j &lt; i; j++)<br>				std::cout &lt;&lt; j &lt;&lt; <span class="hljs-string">' '</span>;<br>			fi = i+<span class="hljs-number">1</span>;<br>		}<br>		<span class="hljs-keyword">if</span>(i == n) {<br>			std::cout &lt;&lt; i &lt;&lt; <span class="hljs-string">' '</span>;<br>			<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = fi; j &lt; i; j++)<br>				std::cout &lt;&lt; j &lt;&lt; <span class="hljs-string">' '</span>;<br>		}<br>	}<br>	std::cout &lt;&lt; <span class="hljs-string">'\n'</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-keyword">signed</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>  FAST;<br>  <span class="hljs-built_in">muticases</span>();<br>  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i, l, n) for (int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> edl std::cout &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) std::cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> cmuticases()                                                           \</span><br><span class="hljs-meta">  int T;                                                                       \</span><br><span class="hljs-meta">  scanf(<span class="hljs-string">"%d"</span>, &amp;T);                                                             \</span><br><span class="hljs-meta">  while (T--)                                                                  \</span><br><span class="hljs-meta">    solve();</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases()                                                            \</span><br><span class="hljs-meta">  int T;                                                                       \</span><br><span class="hljs-meta">  std::cin &gt;&gt; T;                                                               \</span><br><span class="hljs-meta">  while (T--)                                                                  \</span><br><span class="hljs-meta">    solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-type">unsigned</span> <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-type">const</span> ll mod = <span class="hljs-number">998244353</span>;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">rnd</span><span class="hljs-params">(<span class="hljs-type">int</span> x)</span> </span>{ <span class="hljs-keyword">return</span> <span class="hljs-built_in">mrand</span>() % x; }<br><span class="hljs-function">ll <span class="hljs-title">powmod</span><span class="hljs-params">(ll a, ll b)</span> </span>{<br>  ll res = <span class="hljs-number">1</span>;<br>  a %= mod;<br>  <span class="hljs-built_in">assert</span>(b &gt;= <span class="hljs-number">0</span>);<br>  <span class="hljs-keyword">for</span> (; b; b &gt;&gt;= <span class="hljs-number">1</span>) {<br>    <span class="hljs-keyword">if</span> (b &amp; <span class="hljs-number">1</span>)<br>      res = res * a % mod;<br>    a = a * a % mod;<br>  }<br>  <span class="hljs-keyword">return</span> res;<br>}<br><span class="hljs-function">ll <span class="hljs-title">gcd</span><span class="hljs-params">(ll a, ll b)</span> </span>{ <span class="hljs-keyword">return</span> b ? <span class="hljs-built_in">gcd</span>(b, a % b) : a; }<br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-meta">#<span class="hljs-keyword">define</span> int long long</span><br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-type">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-type">int</span> n; std::cin &gt;&gt; n;<br>	std::map&lt;<span class="hljs-type">int</span>, <span class="hljs-type">int</span>&gt; mp;<br>	<span class="hljs-function">std::vector&lt;PII&gt; <span class="hljs-title">a</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span></span>;<br>	<span class="hljs-built_in">rep</span>(i,<span class="hljs-number">1</span>,n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; a[i].se;<br>		mp[a[i].se]++;<br>		a[i].fi = i;<br>	}<br>	<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> [x,cnt] : mp) {<br>		<span class="hljs-keyword">if</span>(cnt == <span class="hljs-number">1</span>) {<br>			std::cout &lt;&lt; <span class="hljs-string">"-1\n"</span>;<br>			<span class="hljs-keyword">return</span>;<br>		}<br>	}<br><br>	<span class="hljs-type">int</span> fi = <span class="hljs-number">1</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++) {<br>		<span class="hljs-keyword">if</span>(a[i].se != a[i+<span class="hljs-number">1</span>].se &amp;&amp; i+<span class="hljs-number">1</span> &lt;= n) {<br>			std::cout &lt;&lt; i &lt;&lt; <span class="hljs-string">' '</span>;<br>			<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = fi; j &lt; i; j++)<br>				std::cout &lt;&lt; j &lt;&lt; <span class="hljs-string">' '</span>;<br>			fi = i+<span class="hljs-number">1</span>;<br>		}<br>		<span class="hljs-keyword">if</span>(i == n) {<br>			std::cout &lt;&lt; i &lt;&lt; <span class="hljs-string">' '</span>;<br>			<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = fi; j &lt; i; j++)<br>				std::cout &lt;&lt; j &lt;&lt; <span class="hljs-string">' '</span>;<br>		}<br>	}<br>	std::cout &lt;&lt; <span class="hljs-string">'\n'</span>;<br>}<br><br><span class="hljs-function"><span class="hljs-type">signed</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>  FAST;<br>  <span class="hljs-built_in">muticases</span>();<br>  <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br><br></code></pre></td></tr></tbody></table></figure>
 
 
 <h2 id="C-Sum-of-Substrings"><a href="#C-Sum-of-Substrings" class="headerlink" title="C. Sum of Substrings"></a>C. Sum of Substrings</h2><p>You are given a binary string 𝑠 of length 𝑛.<br>Let’s define 𝑑𝑖 as the number whose decimal representation is 𝑠𝑖𝑠𝑖+1 (possibly, with a leading zero). We define 𝑓(𝑠) to be the sum of all the valid 𝑑𝑖. In other words, 𝑓(𝑠)=∑𝑖=1𝑛−1𝑑𝑖.</p>
@@ -271,7 +308,7 @@
 <li>不难发现除了开头和末尾的1，其余的1的贡献值都为1，所以处理从开头第一个1到末尾往前第一个1所在的区间。</li>
 <li>若末尾和开头都为0，那么将一个1移到末尾能减少10的贡献，移到开头能减少1的贡献，所以每次操作尽量往右移</li>
 </ul>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><br><span class="hljs-keyword">char</span> s[<span class="hljs-number">300005</span>];<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    <span class="hljs-keyword">int</span> T;<br>    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;T);<br>    <span class="hljs-keyword">while</span>(T--) {<br>        <span class="hljs-keyword">int</span> n, k;<br>        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d%d%s"</span>, &amp;n, &amp;k, s+<span class="hljs-number">1</span>);<br>        <span class="hljs-keyword">int</span> ans = <span class="hljs-number">0</span>, l = <span class="hljs-number">-1</span>, r;<br>        <br>        <span class="hljs-comment">// 先以每个1为11的贡献计算初始值，后续减去处理的。</span><br>        <span class="hljs-comment">// l到r表示以1开始并以1结尾的字符串区间</span><br>        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++) {<br>            <span class="hljs-keyword">if</span>(s[i] == <span class="hljs-string">'1'</span>) {<br>                ans += <span class="hljs-number">11</span>;<br>                <span class="hljs-keyword">if</span>(l == <span class="hljs-number">-1</span>)<br>                    l = i;<br>                r = i;<br>            }<br>        }<br>        <br>        <span class="hljs-keyword">if</span>(l != <span class="hljs-number">-1</span>) {<br>            <span class="hljs-keyword">if</span>(l == r) {<br>                <span class="hljs-keyword">if</span>(n - r &lt;= k)<br>                    k -= (n - r), ans -= <span class="hljs-number">10</span>;<br>                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(l - <span class="hljs-number">1</span> &lt;= k)<br>                    ans--;<br>            }<br>            <span class="hljs-keyword">else</span> {<br>                <span class="hljs-keyword">if</span>(n - r &lt;= k)<br>                    k -= (n - r), ans -= <span class="hljs-number">10</span>;<br>                <span class="hljs-keyword">if</span>(l - <span class="hljs-number">1</span> &lt;= k)<br>                    ans--;<br>            }<br>        }<br>        <br>        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>, ans);<br>    }<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br><br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><br><span class="hljs-type">char</span> s[<span class="hljs-number">300005</span>];<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    <span class="hljs-type">int</span> T;<br>    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d"</span>, &amp;T);<br>    <span class="hljs-keyword">while</span>(T--) {<br>        <span class="hljs-type">int</span> n, k;<br>        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">"%d%d%s"</span>, &amp;n, &amp;k, s+<span class="hljs-number">1</span>);<br>        <span class="hljs-type">int</span> ans = <span class="hljs-number">0</span>, l = <span class="hljs-number">-1</span>, r;<br>        <br>        <span class="hljs-comment">// 先以每个1为11的贡献计算初始值，后续减去处理的。</span><br>        <span class="hljs-comment">// l到r表示以1开始并以1结尾的字符串区间</span><br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++) {<br>            <span class="hljs-keyword">if</span>(s[i] == <span class="hljs-string">'1'</span>) {<br>                ans += <span class="hljs-number">11</span>;<br>                <span class="hljs-keyword">if</span>(l == <span class="hljs-number">-1</span>)<br>                    l = i;<br>                r = i;<br>            }<br>        }<br>        <br>        <span class="hljs-keyword">if</span>(l != <span class="hljs-number">-1</span>) {<br>            <span class="hljs-keyword">if</span>(l == r) {<br>                <span class="hljs-keyword">if</span>(n - r &lt;= k)<br>                    k -= (n - r), ans -= <span class="hljs-number">10</span>;<br>                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(l - <span class="hljs-number">1</span> &lt;= k)<br>                    ans--;<br>            }<br>            <span class="hljs-keyword">else</span> {<br>                <span class="hljs-keyword">if</span>(n - r &lt;= k)<br>                    k -= (n - r), ans -= <span class="hljs-number">10</span>;<br>                <span class="hljs-keyword">if</span>(l - <span class="hljs-number">1</span> &lt;= k)<br>                    ans--;<br>            }<br>        }<br>        <br>        <span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d\n"</span>, ans);<br>    }<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br><br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="D-Max-GEQ-Sum"><a href="#D-Max-GEQ-Sum" class="headerlink" title="D. Max GEQ Sum"></a>D. Max GEQ Sum</h2><p>You are given an array 𝑎 of 𝑛 integers. You are asked to find out if the inequality</p>
 <blockquote>
@@ -282,38 +319,84 @@
 <blockquote>
 <p>jls的代码非常的清爽</p>
 </blockquote>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><br><span class="hljs-keyword">using</span> i64 = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>    <span class="hljs-keyword">int</span> n;<br>    std::cin &gt;&gt; n;<br>    <br>    <span class="hljs-function">std::vector&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">a</span><span class="hljs-params">(n)</span></span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        std::cin &gt;&gt; a[i];<br>    }<br>    <br>    <span class="hljs-function">std::vector&lt;i64&gt; <span class="hljs-title">s</span><span class="hljs-params">(n + <span class="hljs-number">1</span>)</span></span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        s[i + <span class="hljs-number">1</span>] = s[i] + a[i];<br>    }<br>    <br>    <span class="hljs-function">std::vector&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">lc</span><span class="hljs-params">(n, <span class="hljs-number">-1</span>)</span>, <span class="hljs-title">rc</span><span class="hljs-params">(n, <span class="hljs-number">-1</span>)</span></span>;<br>    std::vector&lt;<span class="hljs-keyword">int</span>&gt; stack;<br>    <br>    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        <span class="hljs-keyword">while</span> (!stack.<span class="hljs-built_in">empty</span>() &amp;&amp; a[i] &gt; a[stack.<span class="hljs-built_in">back</span>()]) {<br>            <span class="hljs-keyword">int</span> x = stack.<span class="hljs-built_in">back</span>();<br>            rc[x] = lc[i];<br>            lc[i] = x;<br>            stack.<span class="hljs-built_in">pop_back</span>();<br>        }<br>        stack.<span class="hljs-built_in">push_back</span>(i);<br>    }<br>    <br>    <span class="hljs-keyword">while</span> (stack.<span class="hljs-built_in">size</span>() &gt; <span class="hljs-number">1</span>) {<br>        <span class="hljs-keyword">int</span> x = stack.<span class="hljs-built_in">back</span>();<br>        stack.<span class="hljs-built_in">pop_back</span>();<br>        rc[stack.<span class="hljs-built_in">back</span>()] = x;<br>    }<br>    <br>    <span class="hljs-keyword">bool</span> nice = <span class="hljs-literal">true</span>;<br>    <br>    <span class="hljs-function">std::vector&lt;i64&gt; <span class="hljs-title">min</span><span class="hljs-params">(n)</span>, <span class="hljs-title">max</span><span class="hljs-params">(n)</span></span>;<br>    <br>    std::function&lt;<span class="hljs-built_in"><span class="hljs-keyword">void</span></span>(<span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>, <span class="hljs-keyword">int</span>)&gt; dfs = [&amp;](<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> l, <span class="hljs-keyword">int</span> r) {<br>        <span class="hljs-keyword">if</span> (l &gt; r) {<br>            <span class="hljs-keyword">return</span>;<br>        }<br>        <span class="hljs-built_in">dfs</span>(lc[x], l, x - <span class="hljs-number">1</span>);<br>        <span class="hljs-built_in">dfs</span>(rc[x], x + <span class="hljs-number">1</span>, r);<br>        <br>        min[x] = s[x];<br>        max[x] = s[x + <span class="hljs-number">1</span>];<br>        <span class="hljs-keyword">if</span> (lc[x] != <span class="hljs-number">-1</span>) {<br>            min[x] = std::<span class="hljs-built_in">min</span>(min[x], min[lc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (rc[x] != <span class="hljs-number">-1</span>) {<br>            max[x] = std::<span class="hljs-built_in">max</span>(max[x], max[rc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (max[x] - min[x] &gt; a[x]) {<br>            nice = <span class="hljs-literal">false</span>;<br>        }<br>        <span class="hljs-keyword">if</span> (rc[x] != <span class="hljs-number">-1</span>) {<br>            min[x] = std::<span class="hljs-built_in">min</span>(min[x], min[rc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (lc[x] != <span class="hljs-number">-1</span>) {<br>            max[x] = std::<span class="hljs-built_in">max</span>(max[x], max[lc[x]]);<br>        }<br>    };<br>    <span class="hljs-built_in">dfs</span>(stack[<span class="hljs-number">0</span>], <span class="hljs-number">0</span>, n - <span class="hljs-number">1</span>);<br>    <br>    <span class="hljs-keyword">if</span> (nice) {<br>        std::cout &lt;&lt; <span class="hljs-string">"YES\n"</span>;<br>    } <span class="hljs-keyword">else</span> {<br>        std::cout &lt;&lt; <span class="hljs-string">"NO\n"</span>;<br>    }<br>}<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    std::ios::<span class="hljs-built_in">sync_with_stdio</span>(<span class="hljs-literal">false</span>);<br>    std::cin.<span class="hljs-built_in">tie</span>(<span class="hljs-literal">nullptr</span>);<br>    <br>    <span class="hljs-keyword">int</span> t;<br>    std::cin &gt;&gt; t;<br>    <br>    <span class="hljs-keyword">while</span> (t--) {<br>        <span class="hljs-built_in">solve</span>();<br>    }<br>    <br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
-            </div>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/cf/">cf</a>
-                    
-                  </div>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><br><span class="hljs-keyword">using</span> i64 = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">solve</span><span class="hljs-params">()</span> </span>{<br>    <span class="hljs-type">int</span> n;<br>    std::cin &gt;&gt; n;<br>    <br>    <span class="hljs-function">std::vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">a</span><span class="hljs-params">(n)</span></span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        std::cin &gt;&gt; a[i];<br>    }<br>    <br>    <span class="hljs-function">std::vector&lt;i64&gt; <span class="hljs-title">s</span><span class="hljs-params">(n + <span class="hljs-number">1</span>)</span></span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        s[i + <span class="hljs-number">1</span>] = s[i] + a[i];<br>    }<br>    <br>    <span class="hljs-function">std::vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">lc</span><span class="hljs-params">(n, <span class="hljs-number">-1</span>)</span>, <span class="hljs-title">rc</span><span class="hljs-params">(n, <span class="hljs-number">-1</span>)</span></span>;<br>    std::vector&lt;<span class="hljs-type">int</span>&gt; stack;<br>    <br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; n; i++) {<br>        <span class="hljs-keyword">while</span> (!stack.<span class="hljs-built_in">empty</span>() &amp;&amp; a[i] &gt; a[stack.<span class="hljs-built_in">back</span>()]) {<br>            <span class="hljs-type">int</span> x = stack.<span class="hljs-built_in">back</span>();<br>            rc[x] = lc[i];<br>            lc[i] = x;<br>            stack.<span class="hljs-built_in">pop_back</span>();<br>        }<br>        stack.<span class="hljs-built_in">push_back</span>(i);<br>    }<br>    <br>    <span class="hljs-keyword">while</span> (stack.<span class="hljs-built_in">size</span>() &gt; <span class="hljs-number">1</span>) {<br>        <span class="hljs-type">int</span> x = stack.<span class="hljs-built_in">back</span>();<br>        stack.<span class="hljs-built_in">pop_back</span>();<br>        rc[stack.<span class="hljs-built_in">back</span>()] = x;<br>    }<br>    <br>    <span class="hljs-type">bool</span> nice = <span class="hljs-literal">true</span>;<br>    <br>    <span class="hljs-function">std::vector&lt;i64&gt; <span class="hljs-title">min</span><span class="hljs-params">(n)</span>, <span class="hljs-title">max</span><span class="hljs-params">(n)</span></span>;<br>    <br>    std::function&lt;<span class="hljs-type">void</span>(<span class="hljs-type">int</span>, <span class="hljs-type">int</span>, <span class="hljs-type">int</span>)&gt; dfs = [&amp;](<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> l, <span class="hljs-type">int</span> r) {<br>        <span class="hljs-keyword">if</span> (l &gt; r) {<br>            <span class="hljs-keyword">return</span>;<br>        }<br>        <span class="hljs-built_in">dfs</span>(lc[x], l, x - <span class="hljs-number">1</span>);<br>        <span class="hljs-built_in">dfs</span>(rc[x], x + <span class="hljs-number">1</span>, r);<br>        <br>        min[x] = s[x];<br>        max[x] = s[x + <span class="hljs-number">1</span>];<br>        <span class="hljs-keyword">if</span> (lc[x] != <span class="hljs-number">-1</span>) {<br>            min[x] = std::<span class="hljs-built_in">min</span>(min[x], min[lc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (rc[x] != <span class="hljs-number">-1</span>) {<br>            max[x] = std::<span class="hljs-built_in">max</span>(max[x], max[rc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (max[x] - min[x] &gt; a[x]) {<br>            nice = <span class="hljs-literal">false</span>;<br>        }<br>        <span class="hljs-keyword">if</span> (rc[x] != <span class="hljs-number">-1</span>) {<br>            min[x] = std::<span class="hljs-built_in">min</span>(min[x], min[rc[x]]);<br>        }<br>        <span class="hljs-keyword">if</span> (lc[x] != <span class="hljs-number">-1</span>) {<br>            max[x] = std::<span class="hljs-built_in">max</span>(max[x], max[lc[x]]);<br>        }<br>    };<br>    <span class="hljs-built_in">dfs</span>(stack[<span class="hljs-number">0</span>], <span class="hljs-number">0</span>, n - <span class="hljs-number">1</span>);<br>    <br>    <span class="hljs-keyword">if</span> (nice) {<br>        std::cout &lt;&lt; <span class="hljs-string">"YES\n"</span>;<br>    } <span class="hljs-keyword">else</span> {<br>        std::cout &lt;&lt; <span class="hljs-string">"NO\n"</span>;<br>    }<br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    std::ios::<span class="hljs-built_in">sync_with_stdio</span>(<span class="hljs-literal">false</span>);<br>    std::cin.<span class="hljs-built_in">tie</span>(<span class="hljs-literal">nullptr</span>);<br>    <br>    <span class="hljs-type">int</span> t;<br>    std::cin &gt;&gt; t;<br>    <br>    <span class="hljs-keyword">while</span> (t--) {<br>        <span class="hljs-built_in">solve</span>();<br>    }<br>    <br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
                 
               </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/cf/">#cf</a>
+      
+    </div>
+  
+</div>
+
+
               
-                <p class="note note-warning">
-                  
-                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
-                  
-                </p>
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>CF795div2 A-D题解</div>
+      <div>https://zhengzihan.me/2022/06/01/CF795div2-A-D题解/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Pz</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年6月1日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
               
-              
-                <div class="post-prevnext">
+                <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2022/07/27/ABC261D/" title="ABC261D">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">ABC261D</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/">
+                      <a href="/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/" title="ABC253 A-E题解">
                         <span class="hidden-mobile">ABC253 A-E题解</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -329,19 +412,56 @@
         </div>
       </div>
     </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
   <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
   <div class="toc-body" id="toc-body"></div>
 </div>
 
-      </div>
-    
+
+
+  </aside>
+
+
+    </div>
   </div>
 </div>
 
-<!-- Custom -->
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
 
 
     
@@ -366,32 +486,34 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
     </div>
   </div>
 </div>
+
     
 
     
   </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
+  <footer>
+    <div class="footer-inner">
   
-
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
-
   
-</footer>
+  
+  
+</div>
 
+  </footer>
 
-  <!-- SCRIPTS -->
+  <!-- Scripts -->
   
   <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
@@ -410,10 +532,22 @@
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-<!-- Plugins -->
 
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
 
-  <script  src="/js/local-search.js" ></script>
 
 
 
@@ -423,98 +557,122 @@
 
 
 
-  
-
-
 
   
-    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
-  
-  
-    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
-  
-  
-    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
-  
-  
-    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
-  
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
 
 
+  <script src=https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js></script>
 
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-        typing(title);
-      
-    })(window, document);
-  </script>
-
-
-
+  <script>Fluid.plugins.codeWidget();</script>
 
 
   
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
 
   
-    <!-- MathJax -->
-    <script>
-      MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-        loader: {
-          load: ['ui/lazy']
-        },
-        options: {
-          renderActions: {
-            findScript: [10, doc => {
-              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-                const display = !!node.type.match(/; *mode=display/);
-                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                const text = document.createTextNode('');
-                node.parentNode.replaceChild(text, node);
-                math.start = { node: text, delim: '', n: 0 };
-                math.end = { node: text, delim: '', n: 0 };
-                doc.math.push(math);
-              });
-            }, '', false],
-            insertedScript: [200, () => {
-              document.querySelectorAll('mjx-container').forEach(node => {
-                let target = node.parentNode;
-                if (target.nodeName.toLowerCase() === 'li') {
-                  target.parentNode.classList.add('has-jax');
-                }
-              });
-            }, '', false]
-          }
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
         }
-      };
-    </script>
+      </script>
+    
 
-    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+  <script  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" ></script>
 
-  
-
-
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
 
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>

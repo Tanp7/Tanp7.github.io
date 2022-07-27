@@ -30,30 +30,25 @@
 <meta name="twitter:card" content="summary_large_image">
   
   
+  
   <title>ABC250 A-E题解 - Pz&#39;Home</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
 
+
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
 
-  
-    
-    
-      
-      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
-    
-  
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
 
-  
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
-  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
 
 
 
@@ -62,24 +57,45 @@
 
 <link  rel="stylesheet" href="/css/main.css" />
 
-<!-- 自定义样式保持在最底部 -->
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
 
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
-<meta name="generator" content="Hexo 6.0.0">
+  
+
+
+  
+<meta name="generator" content="Hexo 6.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Pz'Home" type="application/atom+xml">
 </head>
 
 
 <body>
-  <header style="height: 70vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
       <strong>Pz&#39; Home</strong>
@@ -161,6 +177,7 @@
               &nbsp;<i class="iconfont icon-search"></i>&nbsp;
             </a>
           </li>
+          
         
         
           <li class="nav-item" id="color-toggle-btn">
@@ -173,57 +190,71 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/lt.png') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="ABC250 A-E题解">
-              
-            </span>
-
-            
-              <div class="mt-3">
-  
-  
-    <span class="post-meta">
-      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-05-09 00:06" pubdate>
-        2022年5月9日 凌晨
-      </time>
-    </span>
-  
-</div>
-
-<div class="mt-1">
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      7.8k 字
-    </span>
   
 
-  
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      65 分钟
-    </span>
-  
-
-  
-  
-</div>
-
-            
-          </div>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/lt.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="ABC250 A-E题解"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-05-09 00:06" pubdate>
+          2022年5月9日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          <!-- compatible with older versions-->
+          7.8k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          <!-- compatible with older versions-->
+          65 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
       </div>
+
+      
     </div>
+  </div>
+</div>
+
+</div>
+
   </header>
 
   <main>
@@ -232,91 +263,137 @@
 
 <div class="container-fluid nopadding-x">
   <div class="row nomargin-x">
-    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
     <div class="col-lg-8 nopadding-x-md">
       <div class="container nopadding-x-md" id="board-ctn">
-        <div class="py-5" id="board">
+        <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
             <h1 style="display: none">ABC250 A-E题解</h1>
             
-            <div class="markdown-body">
-              <h2 id="A-Adjacent-Squares"><a href="#A-Adjacent-Squares" class="headerlink" title="A.Adjacent Squares"></a>A.Adjacent Squares</h2><span id="more"></span>
+            
+              <div class="markdown-body">
+                
+                <h2 id="A-Adjacent-Squares"><a href="#A-Adjacent-Squares" class="headerlink" title="A.Adjacent Squares"></a>A.Adjacent Squares</h2><span id="more"></span>
 
 <h3 id="题面："><a href="#题面：" class="headerlink" title="题面："></a>题面：</h3><p>There is a grid with H horizontal rows and W vertical columns. Let (i,j) denote the square at the i-th row from the top and the j-th column from the left.<br>Find the number of squares that share a side with Square(R,C).Here, two squares(a,b) and (c,d) are said to share a side if and only if ∣a−c∣+∣b−d∣=1 (where ∣x∣ denotes the absolute value of x).</p>
 <h4 id="大意：在-H-W-中找到符合-R-C-∣a−c∣-∣b−d∣-1条件的组合数"><a href="#大意：在-H-W-中找到符合-R-C-∣a−c∣-∣b−d∣-1条件的组合数" class="headerlink" title="大意：在(H,W)中找到符合(R,C)∣a−c∣+∣b−d∣=1条件的组合数."></a>大意：在(H,W)中找到符合(R,C)∣a−c∣+∣b−d∣=1条件的组合数.</h4><h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><p>照着题目的意思模拟一下即可</p>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></div></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> endl <span class="hljs-meta-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	FAST;<br>	<span class="hljs-keyword">int</span> H, W, R, C, ans = <span class="hljs-number">0</span>;<br>	std::cin &gt;&gt; H &gt;&gt; W &gt;&gt; R &gt;&gt; C;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= H; i++)<br>		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = <span class="hljs-number">1</span>; j &lt;= W; j++) {<br>			<span class="hljs-keyword">if</span>(std::<span class="hljs-built_in">abs</span>(i-R) + std::<span class="hljs-built_in">abs</span>(j-C) == <span class="hljs-number">1</span>)<br>				ans++;<br>		}<br>	std::cout &lt;&lt; ans;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> endl <span class="hljs-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	FAST;<br>	<span class="hljs-type">int</span> H, W, R, C, ans = <span class="hljs-number">0</span>;<br>	std::cin &gt;&gt; H &gt;&gt; W &gt;&gt; R &gt;&gt; C;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= H; i++)<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">1</span>; j &lt;= W; j++) {<br>			<span class="hljs-keyword">if</span>(std::<span class="hljs-built_in">abs</span>(i-R) + std::<span class="hljs-built_in">abs</span>(j-C) == <span class="hljs-number">1</span>)<br>				ans++;<br>		}<br>	std::cout &lt;&lt; ans;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="B-Enlarged-Checker-Board"><a href="#B-Enlarged-Checker-Board" class="headerlink" title="B.Enlarged Checker Board"></a>B.Enlarged Checker Board</h2><h3 id="题面"><a href="#题面" class="headerlink" title="题面"></a>题面</h3><p>Tiles are aligned in N horizontal rows and N vertical columns. Each tile has a grid with A horizontal rows and B vertical columns. On the whole, the tiles form a grid X with (A×N) horizontal rows and (B×N) vertical columns.<br>For 1≤i,j≤N, Tile (i,j) denotes the tile at the i-th row from the top and the j-th column from the left. </p>
 <p>Each square of X is painted as follows.</p>
-<div class="code-wrapper"><pre><code class="hljs">Each tile is either a white tile or a black tile.
+<pre><code class="hljs">Each tile is either a white tile or a black tile.
 Every square in a white tile is painted white; every square in a black tile is painted black.
 Tile(1,1) is a white tile.
 Two tiles sharing a side have different colors. Here, Tile
 (a,b) and Tile (c,d) are said to be sharing a side if and only if ∣a−c∣+∣b−d∣=1 (where ∣x∣ denotes the absolute value of x).
-</code></pre></div>
+</code></pre>
 <p>(1,1) is a white tile.<br>Two tiles sharing a side have different colors. Here, Tile (a,b) and Tile (c,d) are said to be sharing a side if and only if ∣a−c∣+∣b−d∣=1 (where ∣x∣ denotes the absolute value of x).</p>
 <p>Print the grid X in the format specified in the Output section.</p>
 <h3 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h3><p>可以照着样例找规律模拟一下</p>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> endl <span class="hljs-meta-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-keyword">int</span> n, a, b;<br>	<span class="hljs-keyword">int</span> tag;<br>	std::cin &gt;&gt; n &gt;&gt; a &gt;&gt; b;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; n*a; i++) {<br>		<span class="hljs-keyword">if</span>((i/a)%<span class="hljs-number">2</span>==<span class="hljs-number">0</span>) tag = <span class="hljs-number">1</span>;<br>		<span class="hljs-keyword">else</span> tag = <span class="hljs-number">0</span>;<br>		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = <span class="hljs-number">0</span>; j &lt; n*b; j++) {<br>			<span class="hljs-keyword">if</span>((j / b) % <span class="hljs-number">2</span> == tag)<br>				std::cout &lt;&lt; <span class="hljs-string">'#'</span>;<br>			<span class="hljs-keyword">else</span><br>				std::cout &lt;&lt; <span class="hljs-string">'.'</span>;<br>		}<br>		std::cout &lt;&lt; endl;<br>	}<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> endl <span class="hljs-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-type">int</span> n, a, b;<br>	<span class="hljs-type">int</span> tag;<br>	std::cin &gt;&gt; n &gt;&gt; a &gt;&gt; b;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; n*a; i++) {<br>		<span class="hljs-keyword">if</span>((i/a)%<span class="hljs-number">2</span>==<span class="hljs-number">0</span>) tag = <span class="hljs-number">1</span>;<br>		<span class="hljs-keyword">else</span> tag = <span class="hljs-number">0</span>;<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = <span class="hljs-number">0</span>; j &lt; n*b; j++) {<br>			<span class="hljs-keyword">if</span>((j / b) % <span class="hljs-number">2</span> == tag)<br>				std::cout &lt;&lt; <span class="hljs-string">'#'</span>;<br>			<span class="hljs-keyword">else</span><br>				std::cout &lt;&lt; <span class="hljs-string">'.'</span>;<br>		}<br>		std::cout &lt;&lt; endl;<br>	}<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="C-Adjacent-Swaps"><a href="#C-Adjacent-Swaps" class="headerlink" title="C. Adjacent Swaps"></a>C. Adjacent Swaps</h2><h3 id="题面-1"><a href="#题面-1" class="headerlink" title="题面"></a>题面</h3><p>N balls are lined up in a row from left to right. Initially, the i-th (1≤i≤N) ball from the left has an integer i written on it.</p>
 <p>Takahashi has performed Q operations. The i-th (1≤i≤Q) operation was as follows.</p>
-<div class="code-wrapper"><pre><code class="hljs">Swap the ball with the integer 
-</code></pre></div>
+<pre><code class="hljs">Swap the ball with the integer 
+</code></pre>
 <p>xi​ written on it with the next ball to the right. If the ball with the integer</p>
-<div class="code-wrapper"><pre><code class="hljs">xi​ written on it was originally the rightmost ball, swap it with the next ball to the left instead.
-</code></pre></div>
+<pre><code class="hljs">xi​ written on it was originally the rightmost ball, swap it with the next ball to the left instead.
+</code></pre>
 <p>Let $ai$​ be the integer written on the i-th (1≤i≤N) ball after the operations. Find $a1,…,aN$.</p>
-<h4 id="大意：给出一个长度为q的询问序列-xi-1-lt-xi-lt-q-对于每个-xi-，如果-pos-xi-n-则与左相邻的一个元素交换，如果-pos-xi-n-则与右相邻的元素交换"><a href="#大意：给出一个长度为q的询问序列-xi-1-lt-xi-lt-q-对于每个-xi-，如果-pos-xi-n-则与左相邻的一个元素交换，如果-pos-xi-n-则与右相邻的元素交换" class="headerlink" title="大意：给出一个长度为q的询问序列$xi$, $1<=xi<=q$,对于每个$xi$，如果$pos[xi] == n$则与左相邻的一个元素交换，如果$pos[xi] != n$则与右相邻的元素交换"></a>大意：给出一个长度为q的询问序列$xi$, $1&lt;=xi&lt;=q$,对于每个$xi$，如果$pos[xi] == n$则与左相邻的一个元素交换，如果$pos[xi] != n$则与右相邻的元素交换</h4><h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> endl <span class="hljs-meta-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-keyword">int</span> n;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-function">std::vector&lt;<span class="hljs-keyword">int</span>&gt; <span class="hljs-title">val</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span>, <span class="hljs-title">pos</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span></span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)<br>		val[i] = i, pos[i] = i;<br>	<span class="hljs-keyword">int</span> q;<br>	std::cin &gt;&gt; q;<br>	<span class="hljs-keyword">while</span>(q--) {<br>		<span class="hljs-keyword">int</span> x;<br>		std::cin &gt;&gt; x;<br>		<span class="hljs-keyword">int</span> p0 = pos[x];<br>		<span class="hljs-keyword">int</span> p1 = p0;<br>		<span class="hljs-keyword">if</span>(p0 != n) p1++;<br>		<span class="hljs-keyword">else</span> p1--;<br>		std::<span class="hljs-built_in">swap</span>(val[p0], val[p1]);<br>		std::<span class="hljs-built_in">swap</span>(pos[val[p0]], pos[val[p1]]);<br>	}	<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)<br>		std::cout &lt;&lt; val[i] &lt;&lt; <span class="hljs-string">' '</span>;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<h4 id="大意：给出一个长度为q的询问序列-xi-1-lt-xi-lt-q-对于每个-xi-，如果-pos-xi-n-则与左相邻的一个元素交换，如果-pos-xi-n-则与右相邻的元素交换"><a href="#大意：给出一个长度为q的询问序列-xi-1-lt-xi-lt-q-对于每个-xi-，如果-pos-xi-n-则与左相邻的一个元素交换，如果-pos-xi-n-则与右相邻的元素交换" class="headerlink" title="大意：给出一个长度为q的询问序列$xi$, $1<=xi<=q$,对于每个$xi$，如果$pos[xi] == n$则与左相邻的一个元素交换，如果$pos[xi] != n$则与右相邻的元素交换"></a>大意：给出一个长度为q的询问序列$xi$, $1&lt;=xi&lt;=q$,对于每个$xi$，如果$pos[xi] == n$则与左相邻的一个元素交换，如果$pos[xi] != n$则与右相邻的元素交换</h4><h3 id="题解-2"><a href="#题解-2" class="headerlink" title="题解"></a>题解</h3><figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> fi first</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> se second</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> endl <span class="hljs-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-type">int</span> n;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-function">std::vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">val</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span>, <span class="hljs-title">pos</span><span class="hljs-params">(n+<span class="hljs-number">1</span>)</span></span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)<br>		val[i] = i, pos[i] = i;<br>	<span class="hljs-type">int</span> q;<br>	std::cin &gt;&gt; q;<br>	<span class="hljs-keyword">while</span>(q--) {<br>		<span class="hljs-type">int</span> x;<br>		std::cin &gt;&gt; x;<br>		<span class="hljs-type">int</span> p0 = pos[x];<br>		<span class="hljs-type">int</span> p1 = p0;<br>		<span class="hljs-keyword">if</span>(p0 != n) p1++;<br>		<span class="hljs-keyword">else</span> p1--;<br>		std::<span class="hljs-built_in">swap</span>(val[p0], val[p1]);<br>		std::<span class="hljs-built_in">swap</span>(pos[val[p0]], pos[val[p1]]);<br>	}	<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">1</span>; i &lt;= n; i++)<br>		std::cout &lt;&lt; val[i] &lt;&lt; <span class="hljs-string">' '</span>;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="D-250-like-Number"><a href="#D-250-like-Number" class="headerlink" title="D.250-like Number"></a>D.250-like Number</h2><h3 id="题面-2"><a href="#题面-2" class="headerlink" title="题面"></a>题面</h3><p>Let us regard an integer k as “similar to 250” if the following condition is satisfied:</p>
 <p>k is represented as k=p×q3 with primes</p>
-<div class="code-wrapper"><pre><code class="hljs">p&lt;q.
-</code></pre></div>
+<pre><code class="hljs">p&lt;q.
+</code></pre>
 <p>How many integers less than or equal to N are “similar to 250”?</p>
 <blockquote>
 <p>数据范围是1e18</p>
 </blockquote>
 <h4 id="大意：在不大于N的素数中找到符合-k-p-q-3-的个数"><a href="#大意：在不大于N的素数中找到符合-k-p-q-3-的个数" class="headerlink" title="大意：在不大于N的素数中找到符合$k=p*q^3$的个数"></a>大意：在不大于N的素数中找到符合$k=p*q^3$的个数</h4><h3 id="题解："><a href="#题解：" class="headerlink" title="题解："></a>题解：</h3><p>素数筛+列举q</p>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> endl <span class="hljs-meta-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> N = <span class="hljs-number">1000005</span>;<br><br>std::vector&lt;ll&gt; primes;<br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-keyword">void</span> <span class="hljs-title">init</span><span class="hljs-params">()</span> </span>{		<span class="hljs-comment">//素数筛</span><br>	<span class="hljs-function">std::vector&lt;<span class="hljs-keyword">bool</span>&gt; <span class="hljs-title">fl</span><span class="hljs-params">(N, <span class="hljs-literal">false</span>)</span></span>; <br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">2</span>; i &lt; N; i++) {<br>		<span class="hljs-keyword">if</span>(fl[i]) <span class="hljs-keyword">continue</span>;<br>		primes.<span class="hljs-built_in">push_back</span>(i);<br>		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> j = i*<span class="hljs-number">2</span>; j &lt; N; j+=i)<br>			fl[j] = <span class="hljs-literal">true</span>;<br>	}<br>}<br><br><span class="hljs-function">ll <span class="hljs-title">f</span><span class="hljs-params">(ll p, ll q)</span> </span>{<br>	<span class="hljs-keyword">double</span> est = <span class="hljs-number">1</span>;<br>	est = (q * q * q);<br>	est *= p;<br>	<span class="hljs-keyword">return</span> est;<br>}<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-built_in">init</span>();<br>	ll n;<br>	std::cin &gt;&gt; n;<br>	ll ans = <span class="hljs-number">0</span>;<br>	<span class="hljs-keyword">int</span> q = primes.<span class="hljs-built_in">size</span>() - <span class="hljs-number">1</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> p = <span class="hljs-number">0</span>; p &lt; primes.<span class="hljs-built_in">size</span>(); p++) {<br>		<span class="hljs-keyword">while</span>(p &lt; q &amp;&amp; <span class="hljs-built_in">f</span>(primes[p], primes[q]) &gt; n)<br>			q--;<br>		<span class="hljs-keyword">if</span>(p &gt;= q)<br>			<span class="hljs-keyword">break</span>;<br>		ans += q - p;<br>	}<br>	std::cout &lt;&lt; ans;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> endl <span class="hljs-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> N = <span class="hljs-number">1000005</span>;<br><br>std::vector&lt;ll&gt; primes;<br><br><span class="hljs-function"><span class="hljs-keyword">inline</span> <span class="hljs-type">void</span> <span class="hljs-title">init</span><span class="hljs-params">()</span> </span>{		<span class="hljs-comment">//素数筛</span><br>	<span class="hljs-function">std::vector&lt;<span class="hljs-type">bool</span>&gt; <span class="hljs-title">fl</span><span class="hljs-params">(N, <span class="hljs-literal">false</span>)</span></span>; <br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">2</span>; i &lt; N; i++) {<br>		<span class="hljs-keyword">if</span>(fl[i]) <span class="hljs-keyword">continue</span>;<br>		primes.<span class="hljs-built_in">push_back</span>(i);<br>		<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> j = i*<span class="hljs-number">2</span>; j &lt; N; j+=i)<br>			fl[j] = <span class="hljs-literal">true</span>;<br>	}<br>}<br><br><span class="hljs-function">ll <span class="hljs-title">f</span><span class="hljs-params">(ll p, ll q)</span> </span>{<br>	<span class="hljs-type">double</span> est = <span class="hljs-number">1</span>;<br>	est = (q * q * q);<br>	est *= p;<br>	<span class="hljs-keyword">return</span> est;<br>}<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	<span class="hljs-built_in">init</span>();<br>	ll n;<br>	std::cin &gt;&gt; n;<br>	ll ans = <span class="hljs-number">0</span>;<br>	<span class="hljs-type">int</span> q = primes.<span class="hljs-built_in">size</span>() - <span class="hljs-number">1</span>;<br>	<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> p = <span class="hljs-number">0</span>; p &lt; primes.<span class="hljs-built_in">size</span>(); p++) {<br>		<span class="hljs-keyword">while</span>(p &lt; q &amp;&amp; <span class="hljs-built_in">f</span>(primes[p], primes[q]) &gt; n)<br>			q--;<br>		<span class="hljs-keyword">if</span>(p &gt;= q)<br>			<span class="hljs-keyword">break</span>;<br>		ans += q - p;<br>	}<br>	std::cout &lt;&lt; ans;<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 <h2 id="E-Prefix-Equality"><a href="#E-Prefix-Equality" class="headerlink" title="E.Prefix Equality"></a>E.Prefix Equality</h2><h3 id="题面：-1"><a href="#题面：-1" class="headerlink" title="题面："></a>题面：</h3><p>You are given integer sequences A=(a1​,…,aN​) and B=(b1​,…,bN​), each of length N.</p>
 <p>For i=1,…,Q, answer the query in the following format.</p>
-<div class="code-wrapper"><pre><code class="hljs">If the set of values contained in the first 
-</code></pre></div>
+<pre><code class="hljs">If the set of values contained in the first 
+</code></pre>
 <p>xi​ terms of A, (a1​,…,axi​​), and the set of values contained in the first yi​ terms of B, (b1​,…,byi​​), are equal, then print Yes; otherwise, print No.</p>
 <h4 id="大意：给定两个数组a、b，对于每个询问-x-y-，求出-Set-ai-1-lt-i-lt-x-和-Set-bi-1-lt-i-lt-y-是否相同，（可以用c-STL中的set）来实现。"><a href="#大意：给定两个数组a、b，对于每个询问-x-y-，求出-Set-ai-1-lt-i-lt-x-和-Set-bi-1-lt-i-lt-y-是否相同，（可以用c-STL中的set）来实现。" class="headerlink" title="大意：给定两个数组a、b，对于每个询问${x,y}$，求出$Set {-ai(1<=i<=x)}$和$Set{-bi (1<=i<=y)}$是否相同，（可以用c++ STL中的set）来实现。"></a>大意：给定两个数组a、b，对于每个询问${x,y}$，求出$Set {-ai(1&lt;=i&lt;=x)}$和$Set{-bi (1&lt;=i&lt;=y)}$是否相同，（可以用c++ STL中的set）来实现。</h4><h3 id="题解：-1"><a href="#题解：-1" class="headerlink" title="题解："></a>题解：</h3><p>可以使用哈希+set的做法实现。</p>
-<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> PII std::pair<span class="hljs-meta-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> endl <span class="hljs-meta-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-meta-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-meta-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span>;<br><span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> N = <span class="hljs-number">201000</span>;<br>std::map&lt;<span class="hljs-keyword">int</span>, ull&gt; cnt;<br>std::set&lt;<span class="hljs-keyword">int</span>&gt; cnta, cntb;<br>ull ha[N], hb[N];<br><br><span class="hljs-keyword">int</span> n, a[N], b[N];<br><br><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	FAST;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-built_in">rep</span>(i, <span class="hljs-number">1</span>, n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; a[i];<br>		<span class="hljs-keyword">if</span>(!cnt.<span class="hljs-built_in">count</span>(a[i])) cnt[a[i]] = <span class="hljs-built_in">mrand</span>();<br>		ha[i] = ha[i<span class="hljs-number">-1</span>];<br>		<span class="hljs-keyword">if</span>(!cnta.<span class="hljs-built_in">count</span>(a[i])) ha[i] += cnt[a[i]];<br>		cnta.<span class="hljs-built_in">insert</span>(a[i]);<br>	}<br>	<span class="hljs-built_in">rep</span>(i, <span class="hljs-number">1</span>, n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; b[i];<br>		<span class="hljs-keyword">if</span>(!cnt.<span class="hljs-built_in">count</span>(b[i])) cnt[b[i]] = <span class="hljs-built_in">mrand</span>();<br>		hb[i] = hb[i<span class="hljs-number">-1</span>];<br>		<span class="hljs-keyword">if</span>(!cntb.<span class="hljs-built_in">count</span>(b[i])) hb[i] += cnt[b[i]];<br>		cntb.<span class="hljs-built_in">insert</span>(b[i]);<br>	}<br>	<span class="hljs-keyword">int</span> q;<br>	std::cin &gt;&gt; q;<br>	<span class="hljs-keyword">while</span>(q--) {<br>		<span class="hljs-keyword">int</span> x, y;<br>		std::cin &gt;&gt; x &gt;&gt; y;<br>		std::cout &lt;&lt; (ha[x] == hb[y] ? <span class="hljs-string">"Yes\n"</span> : <span class="hljs-string">"No\n"</span>);<br>	}<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> rep(i,l,n) for(int i = (int)l; i &lt; (int)n; i++)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> PII std::pair<span class="hljs-string">&lt;int, int&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> pb push_back</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> FAST std::cin.tie(nullptr)-&gt;std::ios_base::sync_with_stdio(false)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> all(x) (x).begin(), (x).end()</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> endl <span class="hljs-string">'\n'</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> debug(a) cout &lt;&lt; #a &lt;&lt; <span class="hljs-string">" = "</span> &lt;&lt; (a) &lt;&lt; <span class="hljs-string">'\n'</span>;</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> inf 0x3c3c3c3c <span class="hljs-comment">// 1010580540, 7f7f7f7f:2139062143</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> llinf 9223372036854775807</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticase() int T;std::cin&gt;&gt;T;while(T--)</span><br><span class="hljs-meta">#<span class="hljs-keyword">define</span> muticases() int std::cin&gt;&gt;T;while(T--)solve();</span><br><span class="hljs-function">std::mt19937_64 <span class="hljs-title">mrand</span><span class="hljs-params">(std::random_device{}())</span></span>;<br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-keyword">using</span> ll = <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-keyword">using</span> ull = <span class="hljs-type">unsigned</span> <span class="hljs-type">long</span> <span class="hljs-type">long</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> N = <span class="hljs-number">201000</span>;<br>std::map&lt;<span class="hljs-type">int</span>, ull&gt; cnt;<br>std::set&lt;<span class="hljs-type">int</span>&gt; cnta, cntb;<br>ull ha[N], hb[N];<br><br><span class="hljs-type">int</span> n, a[N], b[N];<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>	FAST;<br>	std::cin &gt;&gt; n;<br>	<span class="hljs-built_in">rep</span>(i, <span class="hljs-number">1</span>, n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; a[i];<br>		<span class="hljs-keyword">if</span>(!cnt.<span class="hljs-built_in">count</span>(a[i])) cnt[a[i]] = <span class="hljs-built_in">mrand</span>();<br>		ha[i] = ha[i<span class="hljs-number">-1</span>];<br>		<span class="hljs-keyword">if</span>(!cnta.<span class="hljs-built_in">count</span>(a[i])) ha[i] += cnt[a[i]];<br>		cnta.<span class="hljs-built_in">insert</span>(a[i]);<br>	}<br>	<span class="hljs-built_in">rep</span>(i, <span class="hljs-number">1</span>, n+<span class="hljs-number">1</span>) {<br>		std::cin &gt;&gt; b[i];<br>		<span class="hljs-keyword">if</span>(!cnt.<span class="hljs-built_in">count</span>(b[i])) cnt[b[i]] = <span class="hljs-built_in">mrand</span>();<br>		hb[i] = hb[i<span class="hljs-number">-1</span>];<br>		<span class="hljs-keyword">if</span>(!cntb.<span class="hljs-built_in">count</span>(b[i])) hb[i] += cnt[b[i]];<br>		cntb.<span class="hljs-built_in">insert</span>(b[i]);<br>	}<br>	<span class="hljs-type">int</span> q;<br>	std::cin &gt;&gt; q;<br>	<span class="hljs-keyword">while</span>(q--) {<br>		<span class="hljs-type">int</span> x, y;<br>		std::cin &gt;&gt; x &gt;&gt; y;<br>		std::cout &lt;&lt; (ha[x] == hb[y] ? <span class="hljs-string">"Yes\n"</span> : <span class="hljs-string">"No\n"</span>);<br>	}<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>}<br></code></pre></td></tr></tbody></table></figure>
 
 
-            </div>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/abc/">abc</a>
-                    
-                  </div>
                 
               </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/abc/">#abc</a>
+      
+    </div>
+  
+</div>
+
+
               
-                <p class="note note-warning">
-                  
-                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
-                  
-                </p>
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>ABC250 A-E题解</div>
+      <div>https://zhengzihan.me/2022/05/09/ABC250-A-E题解/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Pz</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年5月9日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
               
-              
-                <div class="post-prevnext">
+                <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/">
+                      <a href="/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/" title="ABC251 A-F题解">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">ABC251 A-F题解</span>
                         <span class="visible-mobile">上一篇</span>
@@ -326,7 +403,7 @@ Two tiles sharing a side have different colors. Here, Tile
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/">
+                      <a href="/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" title="代码源每日一题（持续更新）">
                         <span class="hidden-mobile">代码源每日一题（持续更新）</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
@@ -342,19 +419,56 @@ Two tiles sharing a side have different colors. Here, Tile
         </div>
       </div>
     </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
   <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
   <div class="toc-body" id="toc-body"></div>
 </div>
 
-      </div>
-    
+
+
+  </aside>
+
+
+    </div>
   </div>
 </div>
 
-<!-- Custom -->
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
 
 
     
@@ -379,32 +493,34 @@ Two tiles sharing a side have different colors. Here, Tile
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
     </div>
   </div>
 </div>
+
     
 
     
   </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
+  <footer>
+    <div class="footer-inner">
   
-
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
-
   
-</footer>
+  
+  
+</div>
 
+  </footer>
 
-  <!-- SCRIPTS -->
+  <!-- Scripts -->
   
   <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
@@ -423,10 +539,22 @@ Two tiles sharing a side have different colors. Here, Tile
 <script  src="/js/events.js" ></script>
 <script  src="/js/plugins.js" ></script>
 
-<!-- Plugins -->
 
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
 
-  <script  src="/js/local-search.js" ></script>
 
 
 
@@ -436,98 +564,122 @@ Two tiles sharing a side have different colors. Here, Tile
 
 
 
-  
-
-
 
   
-    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
-  
-  
-    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
-  
-  
-    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
-  
-  
-    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
-  
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
 
 
+  <script src=https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js></script>
 
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-        typing(title);
-      
-    })(window, document);
-  </script>
-
-
-
+  <script>Fluid.plugins.codeWidget();</script>
 
 
   
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
 
   
-    <!-- MathJax -->
-    <script>
-      MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-        loader: {
-          load: ['ui/lazy']
-        },
-        options: {
-          renderActions: {
-            findScript: [10, doc => {
-              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-                const display = !!node.type.match(/; *mode=display/);
-                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                const text = document.createTextNode('');
-                node.parentNode.replaceChild(text, node);
-                math.start = { node: text, delim: '', n: 0 };
-                math.end = { node: text, delim: '', n: 0 };
-                doc.math.push(math);
-              });
-            }, '', false],
-            insertedScript: [200, () => {
-              document.querySelectorAll('mjx-container').forEach(node => {
-                let target = node.parentNode;
-                if (target.nodeName.toLowerCase() === 'li') {
-                  target.parentNode.classList.add('has-jax');
-                }
-              });
-            }, '', false]
-          }
+<script>
+  Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
         }
-      };
-    </script>
+      </script>
+    
 
-    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+  <script  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" ></script>
 
-  
-
-
+  <script  src="/js/local-search.js" ></script>
 
 
 
 
 
-
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
 <script  src="/js/boot.js" ></script>
 
 
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
