@@ -6,7 +6,7 @@
   <link href="https://zhengzihan.me/atom.xml" rel="self"/>
   
   <link href="https://zhengzihan.me/"/>
-  <updated>2022-07-27T15:17:39.894Z</updated>
+  <updated>2022-08-25T06:31:18.243Z</updated>
   <id>https://zhengzihan.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暑假总结</title>
+    <link href="https://zhengzihan.me/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/"/>
+    <id>https://zhengzihan.me/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/</id>
+    <published>2022-08-25T05:43:01.000Z</published>
+    <updated>2022-08-25T06:31:18.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天是8月25日，2个月的暑假马上结束。暑假前还想着CF上蓝，结果只上了100分。&lt;br&gt;div2打了很多，3题左右的水平，有些时候很简单的模拟题都会wa，牛客多校11场，可以说是完全单挑吧。&lt;br&gt;像我这种菜逼单挑就是签完到罚坐，有时签到都不会。如果凡事都要有意义的话，那</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>ABC261D</title>
