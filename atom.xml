@@ -6,7 +6,7 @@
   <link href="https://zhengzihan.me/atom.xml" rel="self"/>
   
   <link href="https://zhengzihan.me/"/>
-  <updated>2022-08-25T06:31:18.243Z</updated>
+  <updated>2022-08-30T12:47:02.089Z</updated>
   <id>https://zhengzihan.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>字符串算法H&amp;K&amp;Z&amp;M&amp;A</title>
+    <link href="https://zhengzihan.me/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/"/>
+    <id>https://zhengzihan.me/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/</id>
+    <published>2022-08-30T08:23:17.000Z</published>
+    <updated>2022-08-30T12:47:02.089Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;KMP&quot;&gt;&lt;a href=&quot;#KMP&quot; class=&quot;headerlink&quot; title=&quot;KMP&quot;&gt;&lt;/a&gt;KMP&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;时间复杂度O(n + m) //模式串的长度和匹配串的长度&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>暑假总结</title>
