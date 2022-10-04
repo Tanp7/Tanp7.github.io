@@ -6,7 +6,7 @@
   <link href="https://zhengzihan.me/atom.xml" rel="self"/>
   
   <link href="https://zhengzihan.me/"/>
-  <updated>2022-08-30T14:12:50.901Z</updated>
+  <updated>2022-10-04T09:18:27.327Z</updated>
   <id>https://zhengzihan.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Codeforces-Global-Round-22_A-D题解</title>
+    <link href="https://zhengzihan.me/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://zhengzihan.me/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/</id>
+    <published>2022-10-02T11:39:18.000Z</published>
+    <updated>2022-10-04T09:18:27.327Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了督促我补题，以后每场CF都会上传题解。&lt;/p&gt;
+&lt;h2 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>字符串算法H&amp;K&amp;Z&amp;M&amp;A + Kuangbin题单题解</title>
