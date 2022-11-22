@@ -6,7 +6,7 @@
   <link href="https://zhengzihan.me/atom.xml" rel="self"/>
   
   <link href="https://zhengzihan.me/"/>
-  <updated>2022-10-27T13:23:02.806Z</updated>
+  <updated>2022-11-22T15:04:53.739Z</updated>
   <id>https://zhengzihan.me/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Codeforces-832Div2_A-D题解</title>
+    <link href="https://zhengzihan.me/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://zhengzihan.me/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/</id>
+    <published>2022-11-22T12:41:28.000Z</published>
+    <updated>2022-11-22T15:04:53.739Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;A&quot;&gt;&lt;a href=&quot;#A&quot; class=&quot;headerlink&quot; title=&quot;A&quot;&gt;&lt;/a&gt;A&lt;/h1&gt;&lt;h2 id=&quot;题目大意&quot;&gt;&lt;a href=&quot;#题目大意&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Codeforces-829Div2_A-D题解</title>
@@ -294,9 +315,9 @@
     <category term="c++" scheme="https://zhengzihan.me/categories/c/"/>
     
     
-    <category term="macOs" scheme="https://zhengzihan.me/tags/macOs/"/>
-    
     <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
+    
+    <category term="macOs" scheme="https://zhengzihan.me/tags/macOs/"/>
     
   </entry>
   
@@ -384,9 +405,9 @@
     <category term="C++" scheme="https://zhengzihan.me/categories/C/"/>
     
     
-    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
-    
     <category term="VS Code" scheme="https://zhengzihan.me/tags/VS-Code/"/>
+    
+    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
     
   </entry>
   
@@ -442,31 +463,6 @@
     <category term="ssh" scheme="https://zhengzihan.me/tags/ssh/"/>
     
     <category term="debug" scheme="https://zhengzihan.me/tags/debug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>clashx如何实现终端代理</title>
-    <link href="https://zhengzihan.me/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/"/>
-    <id>https://zhengzihan.me/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/</id>
-    <published>2022-01-18T15:14:59.000Z</published>
-    <updated>2022-02-24T07:49:44.912Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;一-在clashx中复制终端代理命令&quot;&gt;&lt;a href=&quot;#一-在clashx中复制终端代理命令&quot; class=&quot;headerlink&quot; title=&quot;一.在clashx中复制终端代理命令&quot;&gt;&lt;/a&gt;一.在clashx中复制终端代理命令&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;macOS中为cmd+c&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="proxy" scheme="https://zhengzihan.me/categories/proxy/"/>
-    
-    
-    <category term="proxy" scheme="https://zhengzihan.me/tags/proxy/"/>
-    
-    <category term="clashx" scheme="https://zhengzihan.me/tags/clashx/"/>
-    
-    <category term="terminal" scheme="https://zhengzihan.me/tags/terminal/"/>
     
   </entry>
   
