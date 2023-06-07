@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Pz&#39;Home</title>
-  <icon>https://zhengzihan.me/icon.png</icon>
+  <icon>https://tanp7.github.io/icon.png</icon>
   <subtitle>In the dust</subtitle>
-  <link href="https://zhengzihan.me/atom.xml" rel="self"/>
+  <link href="https://tanp7.github.io/atom.xml" rel="self"/>
   
-  <link href="https://zhengzihan.me/"/>
+  <link href="https://tanp7.github.io/"/>
   <updated>2022-11-22T15:04:53.739Z</updated>
-  <id>https://zhengzihan.me/</id>
+  <id>https://tanp7.github.io/</id>
   
   <author>
     <name>Pz</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Codeforces-832Div2_A-D题解</title>
-    <link href="https://zhengzihan.me/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/11/22/Codeforces-832Div2-A-D%E9%A2%98%E8%A7%A3/</id>
     <published>2022-11-22T12:41:28.000Z</published>
     <updated>2022-11-22T15:04:53.739Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Codeforces-829Div2_A-D题解</title>
-    <link href="https://zhengzihan.me/2022/10/27/Codeforces-829Div2-A-D%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/10/27/Codeforces-829Div2-A-D%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/10/27/Codeforces-829Div2-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/10/27/Codeforces-829Div2-A-D%E9%A2%98%E8%A7%A3/</id>
     <published>2022-10-27T11:53:28.000Z</published>
     <updated>2022-10-27T13:23:02.806Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Codeforces-824Div2_A-D题解</title>
-    <link href="https://zhengzihan.me/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/</id>
     <published>2022-10-08T10:29:48.000Z</published>
     <updated>2022-10-08T11:03:23.837Z</updated>
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>Codeforces-Global-Round-22_A-D题解</title>
-    <link href="https://zhengzihan.me/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/10/02/Codeforces-Global-Round-22-A-D%E9%A2%98%E8%A7%A3/</id>
     <published>2022-10-02T11:39:18.000Z</published>
     <updated>2022-10-05T09:33:20.757Z</updated>
     
@@ -103,8 +103,8 @@
   
   <entry>
     <title>字符串算法H&amp;K&amp;Z&amp;M&amp;A + Kuangbin题单题解</title>
-    <link href="https://zhengzihan.me/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/"/>
-    <id>https://zhengzihan.me/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/</id>
+    <link href="https://tanp7.github.io/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/"/>
+    <id>https://tanp7.github.io/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/</id>
     <published>2022-08-30T08:23:17.000Z</published>
     <updated>2022-08-30T14:12:50.901Z</updated>
     
@@ -127,8 +127,8 @@
   
   <entry>
     <title>暑假总结</title>
-    <link href="https://zhengzihan.me/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/"/>
-    <id>https://zhengzihan.me/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/</id>
+    <link href="https://tanp7.github.io/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/"/>
+    <id>https://tanp7.github.io/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/</id>
     <published>2022-08-25T05:43:01.000Z</published>
     <updated>2022-09-01T07:47:40.086Z</updated>
     
@@ -148,8 +148,8 @@
   
   <entry>
     <title>ABC261D</title>
-    <link href="https://zhengzihan.me/2022/07/27/ABC261D/"/>
-    <id>https://zhengzihan.me/2022/07/27/ABC261D/</id>
+    <link href="https://tanp7.github.io/2022/07/27/ABC261D/"/>
+    <id>https://tanp7.github.io/2022/07/27/ABC261D/</id>
     <published>2022-07-27T14:56:43.000Z</published>
     <updated>2022-07-27T15:17:39.894Z</updated>
     
@@ -165,14 +165,14 @@
     
     
     
-    <category term="abc" scheme="https://zhengzihan.me/tags/abc/"/>
+    <category term="abc" scheme="https://tanp7.github.io/tags/abc/"/>
     
   </entry>
   
   <entry>
     <title>CF795div2 A-D题解</title>
-    <link href="https://zhengzihan.me/2022/06/01/CF795div2-A-D%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/06/01/CF795div2-A-D%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/06/01/CF795div2-A-D%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/06/01/CF795div2-A-D%E9%A2%98%E8%A7%A3/</id>
     <published>2022-06-01T09:57:14.000Z</published>
     <updated>2022-06-01T10:12:38.594Z</updated>
     
@@ -188,14 +188,14 @@
     
     
     
-    <category term="cf" scheme="https://zhengzihan.me/tags/cf/"/>
+    <category term="cf" scheme="https://tanp7.github.io/tags/cf/"/>
     
   </entry>
   
   <entry>
     <title>ABC253 A-E题解</title>
-    <link href="https://zhengzihan.me/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/05/29/ABC253-A-E%E9%A2%98%E8%A7%A3/</id>
     <published>2022-05-28T17:00:39.000Z</published>
     <updated>2022-05-29T02:45:24.852Z</updated>
     
@@ -211,14 +211,14 @@
     
     
     
-    <category term="abc" scheme="https://zhengzihan.me/tags/abc/"/>
+    <category term="abc" scheme="https://tanp7.github.io/tags/abc/"/>
     
   </entry>
   
   <entry>
     <title>How to use gcc instead of clang on macOS</title>
-    <link href="https://zhengzihan.me/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/"/>
-    <id>https://zhengzihan.me/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/</id>
+    <link href="https://tanp7.github.io/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/"/>
+    <id>https://tanp7.github.io/2022/05/20/How-to-use-gcc-instead-of-clang-on-macOS/</id>
     <published>2022-05-20T02:04:08.000Z</published>
     <updated>2022-05-20T02:12:01.735Z</updated>
     
@@ -240,8 +240,8 @@
   
   <entry>
     <title>ABC251 A-F题解</title>
-    <link href="https://zhengzihan.me/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/05/16/ABC251-A-F%E9%A2%98%E8%A7%A3/</id>
     <published>2022-05-16T02:26:32.000Z</published>
     <updated>2022-05-16T12:24:45.200Z</updated>
     
@@ -256,14 +256,14 @@
     
     
     
-    <category term="abc" scheme="https://zhengzihan.me/tags/abc/"/>
+    <category term="abc" scheme="https://tanp7.github.io/tags/abc/"/>
     
   </entry>
   
   <entry>
     <title>ABC250 A-E题解</title>
-    <link href="https://zhengzihan.me/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/"/>
-    <id>https://zhengzihan.me/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/</id>
+    <link href="https://tanp7.github.io/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/"/>
+    <id>https://tanp7.github.io/2022/05/09/ABC250-A-E%E9%A2%98%E8%A7%A3/</id>
     <published>2022-05-08T16:06:38.000Z</published>
     <updated>2022-05-16T12:19:14.036Z</updated>
     
@@ -273,14 +273,14 @@
     
     
     
-    <category term="abc" scheme="https://zhengzihan.me/tags/abc/"/>
+    <category term="abc" scheme="https://tanp7.github.io/tags/abc/"/>
     
   </entry>
   
   <entry>
     <title>代码源每日一题（持续更新）</title>
-    <link href="https://zhengzihan.me/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
-    <id>https://zhengzihan.me/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
+    <link href="https://tanp7.github.io/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/"/>
+    <id>https://tanp7.github.io/2022/05/01/%E4%BB%A3%E7%A0%81%E6%BA%90%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/</id>
     <published>2022-05-01T04:22:04.000Z</published>
     <updated>2022-05-16T10:31:38.598Z</updated>
     
@@ -290,14 +290,14 @@
     
     
     
-    <category term="code" scheme="https://zhengzihan.me/tags/code/"/>
+    <category term="code" scheme="https://tanp7.github.io/tags/code/"/>
     
   </entry>
   
   <entry>
     <title>macOS添加c++万能头-Vol0.2</title>
-    <link href="https://zhengzihan.me/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/"/>
-    <id>https://zhengzihan.me/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/</id>
+    <link href="https://tanp7.github.io/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/"/>
+    <id>https://tanp7.github.io/2022/04/13/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4-Vol0-2/</id>
     <published>2022-04-13T07:14:43.000Z</published>
     <updated>2022-04-13T08:23:32.098Z</updated>
     
@@ -312,19 +312,19 @@
     
     
     
-    <category term="c++" scheme="https://zhengzihan.me/categories/c/"/>
+    <category term="c++" scheme="https://tanp7.github.io/categories/c/"/>
     
     
-    <category term="macOs" scheme="https://zhengzihan.me/tags/macOs/"/>
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
-    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
+    <category term="macOs" scheme="https://tanp7.github.io/tags/macOs/"/>
     
   </entry>
   
   <entry>
     <title>现实与理想，哪个更重要呢？</title>
-    <link href="https://zhengzihan.me/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/"/>
-    <id>https://zhengzihan.me/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/</id>
+    <link href="https://tanp7.github.io/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/"/>
+    <id>https://tanp7.github.io/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/</id>
     <published>2022-03-16T11:21:42.000Z</published>
     <updated>2022-03-16T11:29:43.155Z</updated>
     
@@ -345,8 +345,8 @@
   
   <entry>
     <title>macOS添加c++万能头</title>
-    <link href="https://zhengzihan.me/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
-    <id>https://zhengzihan.me/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
+    <link href="https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
+    <id>https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
     <published>2022-02-15T08:03:26.000Z</published>
     <updated>2022-02-24T07:48:03.893Z</updated>
     
@@ -355,19 +355,19 @@
     
     
     
-    <category term="macOS" scheme="https://zhengzihan.me/categories/macOS/"/>
+    <category term="macOS" scheme="https://tanp7.github.io/categories/macOS/"/>
     
     
-    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
-    <category term="macOS" scheme="https://zhengzihan.me/tags/macOS/"/>
+    <category term="macOS" scheme="https://tanp7.github.io/tags/macOS/"/>
     
   </entry>
   
   <entry>
     <title>CodeForces-Educational-Round-122-A&amp;B&amp;C</title>
-    <link href="https://zhengzihan.me/2022/02/03/CodeForces-Educational-Round-122-A-B-C/"/>
-    <id>https://zhengzihan.me/2022/02/03/CodeForces-Educational-Round-122-A-B-C/</id>
+    <link href="https://tanp7.github.io/2022/02/03/CodeForces-Educational-Round-122-A-B-C/"/>
+    <id>https://tanp7.github.io/2022/02/03/CodeForces-Educational-Round-122-A-B-C/</id>
     <published>2022-02-03T12:24:39.000Z</published>
     <updated>2022-02-24T07:47:32.152Z</updated>
     
@@ -376,21 +376,21 @@
     
     
     
-    <category term="Code" scheme="https://zhengzihan.me/categories/Code/"/>
+    <category term="Code" scheme="https://tanp7.github.io/categories/Code/"/>
     
     
-    <category term="Code" scheme="https://zhengzihan.me/tags/Code/"/>
+    <category term="Code" scheme="https://tanp7.github.io/tags/Code/"/>
     
-    <category term="CF" scheme="https://zhengzihan.me/tags/CF/"/>
+    <category term="CF" scheme="https://tanp7.github.io/tags/CF/"/>
     
-    <category term="Solution" scheme="https://zhengzihan.me/tags/Solution/"/>
+    <category term="Solution" scheme="https://tanp7.github.io/tags/Solution/"/>
     
   </entry>
   
   <entry>
     <title>macOS 配置VSCode code runner c++</title>
-    <link href="https://zhengzihan.me/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/"/>
-    <id>https://zhengzihan.me/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/</id>
+    <link href="https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/"/>
+    <id>https://tanp7.github.io/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/</id>
     <published>2022-01-29T18:14:36.000Z</published>
     <updated>2022-02-24T07:47:51.346Z</updated>
     
@@ -402,19 +402,19 @@
     
     
     
-    <category term="C++" scheme="https://zhengzihan.me/categories/C/"/>
+    <category term="C++" scheme="https://tanp7.github.io/categories/C/"/>
     
     
-    <category term="C++" scheme="https://zhengzihan.me/tags/C/"/>
+    <category term="VS Code" scheme="https://tanp7.github.io/tags/VS-Code/"/>
     
-    <category term="VS Code" scheme="https://zhengzihan.me/tags/VS-Code/"/>
+    <category term="C++" scheme="https://tanp7.github.io/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>ncm/qmc转mp3</title>
-    <link href="https://zhengzihan.me/2022/01/21/ncm-qmc%E8%BD%ACmp3/"/>
-    <id>https://zhengzihan.me/2022/01/21/ncm-qmc%E8%BD%ACmp3/</id>
+    <link href="https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/"/>
+    <id>https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/</id>
     <published>2022-01-21T10:32:17.000Z</published>
     <updated>2022-02-24T07:48:11.041Z</updated>
     
@@ -427,19 +427,19 @@
     
     
     
-    <category term="Music" scheme="https://zhengzihan.me/categories/Music/"/>
+    <category term="Music" scheme="https://tanp7.github.io/categories/Music/"/>
     
     
-    <category term="Music" scheme="https://zhengzihan.me/tags/Music/"/>
+    <category term="Music" scheme="https://tanp7.github.io/tags/Music/"/>
     
-    <category term="NeteaseMusic" scheme="https://zhengzihan.me/tags/NeteaseMusic/"/>
+    <category term="NeteaseMusic" scheme="https://tanp7.github.io/tags/NeteaseMusic/"/>
     
   </entry>
   
   <entry>
     <title>云服务器重装系统后ssh无法登陆的问题及解决方案</title>
-    <link href="https://zhengzihan.me/2022/01/19/Debug/"/>
-    <id>https://zhengzihan.me/2022/01/19/Debug/</id>
+    <link href="https://tanp7.github.io/2022/01/19/Debug/"/>
+    <id>https://tanp7.github.io/2022/01/19/Debug/</id>
     <published>2022-01-19T04:15:07.869Z</published>
     <updated>2022-02-24T07:51:34.528Z</updated>
     
@@ -457,12 +457,12 @@
     
     
     
-    <category term="Code" scheme="https://zhengzihan.me/categories/Code/"/>
+    <category term="Code" scheme="https://tanp7.github.io/categories/Code/"/>
     
     
-    <category term="ssh" scheme="https://zhengzihan.me/tags/ssh/"/>
+    <category term="ssh" scheme="https://tanp7.github.io/tags/ssh/"/>
     
-    <category term="debug" scheme="https://zhengzihan.me/tags/debug/"/>
+    <category term="debug" scheme="https://tanp7.github.io/tags/debug/"/>
     
   </entry>
   

@@ -19,7 +19,7 @@
     <meta name="description" content="A题目大意你需要从第一天工作到第n天，但是你可以给自己放三天假，保证任意两天不能相邻（注意是成环的）.当这三天确定后，就形成了三段l1, l2, l3.求min(|l1 - l2|, |l2 - l3|, |l3 - l1|)最大值。 题解首先我们可以把这放假的三天去掉，那么要求的就变成了求如何分配三段让结果最大，那么问题就变成了如何构造这三段来使得答案最大，一种可行的策略就是使得这三段存在单调性">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Codeforces-824Div2_A-D题解">
-<meta property="og:url" content="https://zhengzihan.me/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/index.html">
+<meta property="og:url" content="https://tanp7.github.io/2022/10/08/Codeforces-824Div2-A-D%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="Pz&#39;Home">
 <meta property="og:description" content="A题目大意你需要从第一天工作到第n天，但是你可以给自己放三天假，保证任意两天不能相邻（注意是成环的）.当这三天确定后，就形成了三段l1, l2, l3.求min(|l1 - l2|, |l2 - l3|, |l3 - l1|)最大值。 题解首先我们可以把这放假的三天去掉，那么要求的就变成了求如何分配三段让结果最大，那么问题就变成了如何构造这三段来使得答案最大，一种可行的策略就是使得这三段存在单调性">
 <meta property="og:locale" content="zh_CN">
@@ -69,7 +69,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"zhengzihan.me","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"tanp7.github.io","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -320,7 +320,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>Codeforces-824Div2_A-D题解</div>
-      <div>https://zhengzihan.me/2022/10/08/Codeforces-824Div2-A-D题解/</div>
+      <div>https://tanp7.github.io/2022/10/08/Codeforces-824Div2-A-D题解/</div>
     </div>
     <div class="license-meta">
       
