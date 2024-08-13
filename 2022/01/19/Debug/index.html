@@ -224,7 +224,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-          undefined 字
+          1k 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
           <!-- compatible with older versions-->
-          NaN 分钟
+          9 分钟
         
       </span>
     
@@ -287,7 +287,7 @@
 <p>我之前对ssh服务器重装了系统，导致所有与原系统建立过ssh连接的系统都无法再建立连接，因为在于原系统建立首次连接时，双方相互记录了对方的公钥（ssh基于非对称密钥技术），在ssh服务主机重装系统后，公钥改变了，任以旧版本公钥的主机自然是无法与新系统连接的。</p>
 <p>网上还有分析为ssh主机被人黑了，并在消除入侵记录时对known_hosts文件做了改动。当然也不排除这种可能，但我估计我是没那个福气了：）</p>
 <h2 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h2><p>删除~/.ssh/known_hosts文件，或者如果你可以判断出known_hosts中原ssh服务器的公钥，删去那部分，</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm ~/.ssh/known_hosts</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">rm ~/.ssh/known_hosts<br></code></pre></td></tr></tbody></table></figure>
 <p>然后后再次建立新的连接，即可获得新的公钥。</p>
 
                 
@@ -379,9 +379,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/01/21/ncm-qmc%E8%BD%ACmp3/" title="ncm/qmc转mp3">
+                      <a href="/2022/01/30/macOS-%E9%85%8D%E7%BD%AEVSCode-code-runner-c/" title="macOS 配置VSCode code runner c++">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">ncm/qmc转mp3</span>
+                        <span class="hidden-mobile">macOS 配置VSCode code runner c++</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -389,8 +389,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/" title="clashx如何实现终端代理">
-                        <span class="hidden-mobile">clashx如何实现终端代理</span>
+                      <a href="/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/" title="基于bumblebee的安装Archlinux双显卡驱动">
+                        <span class="hidden-mobile">基于bumblebee的安装Archlinux双显卡驱动</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

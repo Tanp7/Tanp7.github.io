@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/</loc>
-    
-    <lastmod>2022-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tanp7.github.io/2022/08/30/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AE%97%E6%B3%95H-K-Z-M-A/</loc>
     
     <lastmod>2022-08-30</lastmod>
@@ -173,15 +164,6 @@
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tanp7.github.io/2022/01/19/Debug/</loc>
     
     <lastmod>2022-02-24</lastmod>
@@ -192,33 +174,6 @@
   
   <url>
     <loc>https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/</loc>
-    
-    <lastmod>2022-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/2022/01/18/clashx%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%BB%88%E7%AB%AF%E4%BB%A3%E7%90%86/</loc>
-    
-    <lastmod>2022-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/</loc>
-    
-    <lastmod>2022-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/</loc>
     
     <lastmod>2022-02-24</lastmod>
     
@@ -265,7 +220,7 @@
 
   <url>
     <loc>https://tanp7.github.io/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -273,133 +228,91 @@
   
   <url>
     <loc>https://tanp7.github.io/tags/abc/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/Code/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/CF/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/Solution/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/cf/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/proxy/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://tanp7.github.io/tags/Code/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/clashx/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://tanp7.github.io/tags/CF/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/terminal/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/ssh/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/debug/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://tanp7.github.io/tags/Solution/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/VS-Code/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/C/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/tags/macOS/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://tanp7.github.io/tags/ssh/</loc>
+    <lastmod>2024-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/debug/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/macOs/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/Music/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/NeteaseMusic/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/tags/font/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/Archlinux/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tanp7.github.io/tags/macOS/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/tags/code/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -408,49 +321,28 @@
   
   <url>
     <loc>https://tanp7.github.io/categories/Code/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/categories/proxy/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/categories/C/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/categories/macOS/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tanp7.github.io/categories/c/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tanp7.github.io/categories/Music/</loc>
-    <lastmod>2023-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tanp7.github.io/categories/Font/</loc>
-    <lastmod>2023-12-28</lastmod>
+    <loc>https://tanp7.github.io/categories/macOS/</loc>
+    <lastmod>2024-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -223,7 +223,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-          undefined 字
+          1.2k 字
         
       </span>
     
@@ -235,7 +235,7 @@
         
         
           <!-- compatible with older versions-->
-          NaN 分钟
+          10 分钟
         
       </span>
     
@@ -284,7 +284,7 @@
 <h1 id="一、配置bumblebee"><a href="#一、配置bumblebee" class="headerlink" title="一、配置bumblebee"></a>一、配置bumblebee</h1><p>笔者所有指令对应于Arch Linux 64位版。<br>闲话收住，现在开始正式配置我们的双显卡。首先，安装英伟达官方的显卡驱动程序：<br>sudo pacman -S nvidia</p>
 <p>选择和你目前的操作系统相匹配的驱动程序，比如笔者的是Linux 4.9内核，我就应该选带有linux49字样的包。等待安装完成，期间你应该会看到类似的输出：</p>
 <p>然后安装：bumblebee软件包：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S bumblebee</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs zsh">sudo pacman -S bumblebee<br></code></pre></td></tr></tbody></table></figure>
 <p>安装完成之后，记得检查当前用户是否在用户组“bumblebee”内。如果不是，请手动添加。重启计算机，以使英伟达驱动被正确加载，并使bumblebee守护进程启动。</p>
 <h1 id="二、测试bumblebee"><a href="#二、测试bumblebee" class="headerlink" title="二、测试bumblebee"></a>二、测试bumblebee</h1><p>Bumblebee提供了指令optirun，以使用户在会话仍然以集成显卡渲染的情况下，使用独立显卡渲染指定的应用。<br>如果你能正常使用optirun指令，那么你的配置就完成了。</p>
 <h1 id="三、注意"><a href="#三、注意" class="headerlink" title="三、注意"></a>三、注意</h1><p>如果你遇到了使用optirun指令会让整个会话崩溃的情况，那么有两个地方你需要检查：</p>
@@ -385,9 +385,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/01/18/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%AE%89%E8%A3%85%E8%8B%B9%E6%96%B9%E5%AD%97%E4%BD%93/" title="如何在华为手机安装苹方字体">
+                      <a href="/2022/01/19/Debug/" title="云服务器重装系统后ssh无法登陆的问题及解决方案">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">如何在华为手机安装苹方字体</span>
+                        <span class="hidden-mobile">云服务器重装系统后ssh无法登陆的问题及解决方案</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     

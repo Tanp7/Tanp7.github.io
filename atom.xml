@@ -126,27 +126,6 @@
   </entry>
   
   <entry>
-    <title>暑假总结</title>
-    <link href="https://tanp7.github.io/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/"/>
-    <id>https://tanp7.github.io/2022/08/25/%E6%9A%91%E5%81%87%E6%80%BB%E7%BB%93/</id>
-    <published>2022-08-25T05:43:01.000Z</published>
-    <updated>2022-09-01T07:47:40.086Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天是8月25日，2个月的暑假马上结束。暑假前还想着CF上蓝，结果只上了100分。&lt;br&gt;div2打了很多，3题左右的水平，有些时候很简单的模拟题都会wa，牛客多校11场，可以说是完全单挑吧。&lt;br&gt;像我这种菜逼单挑就是签完到罚坐，有时签到都不会。如果凡事都要有意义的话，那</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>ABC261D</title>
     <link href="https://tanp7.github.io/2022/07/27/ABC261D/"/>
     <id>https://tanp7.github.io/2022/07/27/ABC261D/</id>
@@ -322,28 +301,6 @@
   </entry>
   
   <entry>
-    <title>现实与理想，哪个更重要呢？</title>
-    <link href="https://tanp7.github.io/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/"/>
-    <id>https://tanp7.github.io/2022/03/16/%E7%8E%B0%E5%AE%9E%E4%B8%8E%E7%90%86%E6%83%B3%EF%BC%8C%E5%93%AA%E4%B8%AA%E6%9B%B4%E9%87%8D%E8%A6%81%E5%91%A2%EF%BC%9F/</id>
-    <published>2022-03-16T11:21:42.000Z</published>
-    <updated>2022-03-16T11:29:43.155Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天刷题快把自己菜哭了，想着转换心情买了杯到店自取，结果学校不给出。&lt;br&gt;&lt;br&gt;最后免费送人了（感觉没人会拿吧&lt;br&gt;&lt;br&gt;有时候真的能被自己蠢死。&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>macOS添加c++万能头</title>
     <link href="https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/"/>
     <id>https://tanp7.github.io/2022/02/15/macOS%E6%B7%BB%E5%8A%A0c-%E4%B8%87%E8%83%BD%E5%A4%B4/</id>
@@ -412,31 +369,6 @@
   </entry>
   
   <entry>
-    <title>ncm/qmc转mp3</title>
-    <link href="https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/"/>
-    <id>https://tanp7.github.io/2022/01/21/ncm-qmc%E8%BD%ACmp3/</id>
-    <published>2022-01-21T10:32:17.000Z</published>
-    <updated>2022-02-24T07:48:11.041Z</updated>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;你需要准备&quot;&gt;&lt;a href=&quot;#你需要准备&quot; class=&quot;headerlink&quot; title=&quot;你需要准备&quot;&gt;&lt;/a&gt;你需要准备&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;浏览器&lt;/li&gt;
-&lt;li&gt;准备转换格式的ncm/qmc文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;具体步骤&quot;&gt;&lt;a href=&quot;#具体步骤&quot; class=&quot;headerlink&quot; title=&quot;具体步骤&quot;&gt;&lt;/a&gt;具体步骤&lt;/h1&gt;</summary>
-    
-    
-    
-    <category term="Music" scheme="https://tanp7.github.io/categories/Music/"/>
-    
-    
-    <category term="Music" scheme="https://tanp7.github.io/tags/Music/"/>
-    
-    <category term="NeteaseMusic" scheme="https://tanp7.github.io/tags/NeteaseMusic/"/>
-    
-  </entry>
-  
-  <entry>
     <title>云服务器重装系统后ssh无法登陆的问题及解决方案</title>
     <link href="https://tanp7.github.io/2022/01/19/Debug/"/>
     <id>https://tanp7.github.io/2022/01/19/Debug/</id>
@@ -463,6 +395,31 @@
     <category term="ssh" scheme="https://tanp7.github.io/tags/ssh/"/>
     
     <category term="debug" scheme="https://tanp7.github.io/tags/debug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于bumblebee的安装Archlinux双显卡驱动</title>
+    <link href="https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/"/>
+    <id>https://tanp7.github.io/2022/01/18/%E5%9F%BA%E4%BA%8Ebumblebee%E7%9A%84%E5%AE%89%E8%A3%85Archlinux%E5%8F%8C%E6%98%BE%E5%8D%A1%E9%A9%B1%E5%8A%A8/</id>
+    <published>2022-01-17T17:33:37.000Z</published>
+    <updated>2022-02-24T07:51:07.636Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Code" scheme="https://tanp7.github.io/categories/Code/"/>
+    
+    
+    <category term="Archlinux" scheme="https://tanp7.github.io/tags/Archlinux/"/>
     
   </entry>
   
